@@ -3,460 +3,148 @@ import { useTranslation } from 'react-i18next';
 import { useLocation } from 'react-router-dom';
 
 /**
- * SEO KEYWORD STRATEGY - 100+ High-Intent Keywords for Sales Engineering Recruitment
- * 
- * PRIMARY KEYWORDS (High Commercial Intent):
- * 1. sales engineer recruiter
- * 2. sales engineering headhunter
- * 3. technical sales recruiter
- * 4. engineering recruitment agency
- * 5. sales engineer executive search
- * 6. presales engineer recruiter
- * 7. solution engineer headhunter
- * 8. technical account manager recruiter
- * 9. field application engineer recruiter
- * 10. sales engineering talent acquisition
- * 
- * SECONDARY KEYWORDS (Industry-Specific):
- * 11. medical device sales recruiter
- * 12. industrial equipment sales recruiter
- * 13. manufacturing sales engineer headhunter
- * 14. electrical engineering recruiter
- * 15. measurement technology sales recruiter
- * 16. test equipment sales recruiter
- * 17. B2B technical sales recruiter
- * 18. enterprise sales engineer recruiter
- * 19. OEM sales recruiter Germany
- * 20. capital equipment sales recruiter
- * 
- * GEOGRAPHIC KEYWORDS (DACH + USA):
- * 21. sales engineer recruiter Germany
- * 22. sales engineer recruiter Switzerland
- * 23. sales engineer recruiter USA
- * 24. DACH sales recruiter
- * 25. German speaking sales recruiter
- * 26. Munich sales engineer headhunter
- * 27. Zurich sales recruiter
- * 28. Stuttgart engineering recruiter
- * 29. Frankfurt technical sales recruiter
- * 30. Hamburg sales engineer headhunter
- * 
- * ROLE-SPECIFIC KEYWORDS:
- * 31. VP sales engineering recruiter
- * 32. sales director headhunter
- * 33. regional sales manager recruiter
- * 34. key account manager recruiter Germany
- * 35. business development manager recruiter
- * 36. channel sales manager headhunter
- * 37. inside sales engineer recruiter
- * 38. sales operations manager recruiter
- * 39. customer success engineer recruiter
- * 40. technical sales manager headhunter
- * 
- * EXECUTIVE SEARCH KEYWORDS:
- * 41. executive search sales engineering
- * 42. C-level sales recruiter
- * 43. CRO recruiter Germany
- * 44. chief revenue officer headhunter
- * 45. VP of sales headhunter DACH
- * 46. sales leadership recruiter
- * 47. commercial director headhunter
- * 48. managing director sales recruiter
- * 49. sales executive search firm
- * 50. senior sales recruiter Germany
- * 
- * METHODOLOGY KEYWORDS:
- * 51. direct search sales engineer
- * 52. retained search sales engineer
- * 53. executive headhunting sales
- * 54. confidential search sales
- * 55. passive candidate recruiting
- * 56. talent mapping sales engineering
- * 57. market mapping sales recruiter
- * 58. competitor mapping recruiter
- * 59. succession planning sales
- * 60. leadership assessment sales
- * 
- * INDUSTRY VERTICAL KEYWORDS:
- * 61. SaaS sales engineer recruiter
- * 62. IoT sales engineer recruiter
- * 63. automation sales recruiter
- * 64. robotics sales engineer headhunter
- * 65. semiconductor sales recruiter
- * 66. cleantech sales recruiter
- * 67. energy sector sales recruiter
- * 68. automotive sales engineer recruiter
- * 69. aerospace sales recruiter
- * 70. defense sales engineer headhunter
- * 
- * SPECIALIZATION KEYWORDS:
- * 71. application engineer recruiter
- * 72. systems engineer sales recruiter
- * 73. product specialist recruiter
- * 74. technical consultant recruiter
- * 75. solutions architect recruiter
- * 76. demo engineer recruiter
- * 77. proof of concept engineer recruiter
- * 78. integration engineer recruiter
- * 79. implementation engineer recruiter
- * 80. technical trainer recruiter
- * 
- * GERMAN LANGUAGE KEYWORDS:
- * 81. Vertriebsingenieur Personalberater
- * 82. Headhunter Vertriebsingenieur
- * 83. Personalberatung Vertrieb
- * 84. Sales Engineer Personalvermittlung
- * 85. technischer Vertrieb Recruiter
- * 86. Direktsuche Vertriebsleiter
- * 87. Executive Search Vertrieb
- * 88. Personalberater Maschinenbau Vertrieb
- * 89. Headhunter technischer Vertrieb Deutschland
- * 90. Personalberatung DACH Vertrieb
- * 
- * LONG-TAIL KEYWORDS:
- * 91. hire sales engineers for engineering companies
- * 92. find sales engineer passive candidates
- * 93. recruit sales engineers Germany to Switzerland
- * 94. sales engineer headhunter with references
- * 95. boutique sales engineering recruiter
- * 96. specialized sales engineer recruitment
- * 97. sales engineer talent partner
- * 98. sales engineering staffing partner
- * 99. engineering sales recruitment consultant
- * 100. trusted sales engineer recruiter DACH
- * 
- * PAIN POINT KEYWORDS:
- * 101. hard to fill sales engineer positions
- * 102. confidential sales leadership search
- * 103. urgent sales engineer hiring
- * 104. quality sales engineer candidates
- * 105. sales engineer with technical background
- * 106. bilingual sales engineer Germany
- * 107. cross-border sales engineer recruitment
- * 108. sales engineer relocation support
- * 109. sales engineer market salary data
- * 110. sales engineer candidate assessment
+ * SEO Component for The Paradise Architect
+ * Real Estate focused SEO for Riviera Maya / Playa del Carmen
  */
 
-const SITE_NAME = 'Skytz Consulting';
-const SITE_URL = 'https://skytz-consulting.com';
-
-// Structured data for Organization
-const organizationSchema = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Skytz Consulting",
-  "alternateName": "Laurasia LLC",
-  "url": SITE_URL,
-  "logo": `${SITE_URL}/brand/Logo-Skytz-Consulting.png`,
-  "description": "Executive recruitment and direct search for Sales Engineering and technical leadership roles in Germany, Switzerland, and USA.",
-  "foundingDate": "2015",
-  "founder": {
-    "@type": "Person",
-    "name": "Philipp Hoffschröer",
-    "jobTitle": "Founder",
-    "image": `${SITE_URL}/brand/Philipp-Hoffschroer.jpg`
-  },
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "1309 Coffeen Avenue STE 1200",
-    "addressLocality": "Sheridan",
-    "addressRegion": "WY",
-    "postalCode": "82801",
-    "addressCountry": "US"
-  },
-  "email": "info@skytz-consulting.com",
-  "areaServed": [
-    { "@type": "Country", "name": "Germany" },
-    { "@type": "Country", "name": "Switzerland" },
-    { "@type": "Country", "name": "United States" },
-    { "@type": "Country", "name": "Austria" }
-  ],
-  "knowsAbout": [
-    "Sales Engineer Recruitment",
-    "Technical Sales Headhunting",
-    "Executive Search",
-    "Direct Search",
-    "Engineering Leadership Recruitment",
-    "DACH Market Recruitment"
-  ],
-  "sameAs": []
-};
-
-// Structured data for LocalBusiness (for local SEO)
-const localBusinessSchema = {
-  "@context": "https://schema.org",
-  "@type": "EmploymentAgency",
-  "name": "Skytz Consulting",
-  "image": `${SITE_URL}/brand/Logo-Skytz-Consulting.png`,
-  "url": SITE_URL,
-  "priceRange": "$$$$",
-  "description": "Specialist recruitment firm for Sales Engineering, technical sales, and engineering leadership positions. Direct search methodology with proven track record since 2015.",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "1309 Coffeen Avenue STE 1200",
-    "addressLocality": "Sheridan",
-    "addressRegion": "WY",
-    "postalCode": "82801",
-    "addressCountry": "US"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 44.7972,
-    "longitude": -106.9564
-  },
-  "openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-    "opens": "09:00",
-    "closes": "18:00"
-  },
-  "serviceArea": [
-    { "@type": "Country", "name": "Germany" },
-    { "@type": "Country", "name": "Switzerland" },
-    { "@type": "Country", "name": "United States" }
-  ]
-};
-
-// Service schema for recruitment services
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Executive Recruitment",
-  "provider": {
-    "@type": "Organization",
-    "name": "Skytz Consulting"
-  },
-  "name": "Sales Engineer Direct Search",
-  "description": "Direct search and executive recruitment for Sales Engineers, technical sales professionals, and engineering leadership roles in DACH and USA.",
-  "areaServed": ["Germany", "Switzerland", "Austria", "United States"],
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Recruitment Services",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Sales Engineer Recruitment",
-          "description": "Direct search for Sales Engineers with technical expertise and commercial acumen"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Technical Sales Leadership Search",
-          "description": "Executive search for VP Sales, Sales Directors, and Regional Sales Managers"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Engineering Management Recruitment",
-          "description": "Headhunting for technical leadership and managing director positions"
-        }
-      }
-    ]
-  }
-};
-
-export default function SEO({ 
-  title, 
-  description, 
-  canonical,
-  noindex = false,
-  article = false,
-  image
-}) {
-  const { i18n } = useTranslation();
-  const location = useLocation();
-  const lang = i18n.language || 'de';
-  
-  const defaultTitle = lang === 'de' 
-    ? 'Sales Engineer Recruiter | Skytz Consulting – Direktsuche DACH & USA'
-    : lang === 'fr'
-    ? 'Recruteur Sales Engineer | Skytz Consulting – Recherche Directe'
-    : 'Sales Engineer Recruiter | Skytz Consulting – Direct Search DACH & USA';
-    
-  const defaultDescription = lang === 'de'
-    ? 'Spezialisierter Personalberater für Sales Engineers und technische Führungspositionen. Direktsuche ohne Datenbanken. Deutschland, Schweiz, USA. Seit 2015.'
-    : lang === 'fr'
-    ? 'Recruteur spécialisé pour Sales Engineers et postes de direction technique. Recherche directe. Allemagne, Suisse, USA. Depuis 2015.'
-    : 'Specialist recruiter for Sales Engineers and technical leadership positions. Direct search methodology. Germany, Switzerland, USA. Since 2015.';
-
-  const pageTitle = title ? `${title} | ${SITE_NAME}` : defaultTitle;
-  const pageDescription = description || defaultDescription;
-  const pageUrl = canonical || `${SITE_URL}${location.pathname}`;
-  const pageImage = image || `${SITE_URL}/brand/Logo-Skytz-Consulting.png`;
-
-  // Language-specific keywords meta
-  const keywordsByLang = {
-    en: 'sales engineer recruiter, sales engineering headhunter, technical sales recruiter, executive search Germany, direct search sales engineer, engineering recruitment DACH, sales engineer headhunter USA, presales engineer recruiter, solution engineer recruitment, technical sales executive search',
-    de: 'Vertriebsingenieur Personalberater, Sales Engineer Recruiter, Headhunter technischer Vertrieb, Personalberatung Vertrieb Deutschland, Direktsuche Vertriebsleiter, Executive Search Sales Engineering, Personalvermittlung DACH, technischer Vertrieb Headhunter',
-    fr: 'recruteur sales engineer, chasseur de têtes ventes techniques, cabinet recrutement ingénieur commercial, recherche directe sales engineer, recrutement leadership technique'
-  };
-
-  useEffect(() => {
-    // Update document title
-    document.title = pageTitle;
-    
-    // Update or create meta tags
-    const updateMeta = (name, content, property = false) => {
-      const attr = property ? 'property' : 'name';
-      let meta = document.querySelector(`meta[${attr}="${name}"]`);
-      if (!meta) {
-        meta = document.createElement('meta');
-        meta.setAttribute(attr, name);
-        document.head.appendChild(meta);
-      }
-      meta.setAttribute('content', content);
-    };
-    
-    // Basic meta tags
-    updateMeta('description', pageDescription);
-    updateMeta('keywords', keywordsByLang[lang] || keywordsByLang.en);
-    updateMeta('author', 'Philipp Hoffschröer, Skytz Consulting');
-    updateMeta('robots', noindex ? 'noindex, nofollow' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1');
-    
-    // Open Graph
-    updateMeta('og:type', article ? 'article' : 'website', true);
-    updateMeta('og:url', pageUrl, true);
-    updateMeta('og:title', pageTitle, true);
-    updateMeta('og:description', pageDescription, true);
-    updateMeta('og:image', pageImage, true);
-    updateMeta('og:site_name', SITE_NAME, true);
-    updateMeta('og:locale', lang === 'de' ? 'de_DE' : lang === 'fr' ? 'fr_FR' : 'en_US', true);
-    
-    // Twitter
-    updateMeta('twitter:card', 'summary_large_image');
-    updateMeta('twitter:url', pageUrl);
-    updateMeta('twitter:title', pageTitle);
-    updateMeta('twitter:description', pageDescription);
-    updateMeta('twitter:image', pageImage);
-    
-    // Geo meta
-    updateMeta('geo.region', 'DE');
-    updateMeta('geo.placename', 'Germany, Switzerland, USA');
-    
-    // Update canonical link
-    let canonicalLink = document.querySelector('link[rel="canonical"]');
-    if (!canonicalLink) {
-      canonicalLink = document.createElement('link');
-      canonicalLink.setAttribute('rel', 'canonical');
-      document.head.appendChild(canonicalLink);
-    }
-    canonicalLink.setAttribute('href', pageUrl);
-    
-    // Update html lang
-    document.documentElement.lang = lang;
-    
-    // Add structured data
-    const existingScript = document.querySelector('script[data-seo="structured-data"]');
-    if (existingScript) {
-      existingScript.remove();
-    }
-    
-    const script = document.createElement('script');
-    script.type = 'application/ld+json';
-    script.setAttribute('data-seo', 'structured-data');
-    script.textContent = JSON.stringify([organizationSchema, localBusinessSchema, serviceSchema]);
-    document.head.appendChild(script);
-    
-    // Cleanup function
-    return () => {
-      // Keep meta tags for SEO crawlers
-    };
-  }, [pageTitle, pageDescription, pageUrl, pageImage, lang, noindex, article]);
-
-  return null; // This component doesn't render anything
-}
-
-// Page-specific SEO configurations
 export const pageSEOConfig = {
   home: {
     en: {
-      title: 'Sales Engineer Recruiter | Direct Search for Technical Sales Leadership',
-      description: 'Specialist recruiter for Sales Engineers and engineering leadership. Direct search methodology – most placements from passive candidates. Germany, Switzerland, USA. Since 2015.'
+      title: 'The Paradise Architect | Real Estate with Technical Due Diligence – Riviera Maya',
+      description: 'Buy property in Playa del Carmen, Tulum, and Cancún with confidence. Licensed architect and real estate agent specializing in foreign buyers. Technical inspections, permit verification, and investment protection.',
+    },
+    es: {
+      title: 'The Paradise Architect | Bienes Raíces con Due Diligence Técnico – Riviera Maya',
+      description: 'Compra tu propiedad en Playa del Carmen, Tulum y Cancún con confianza. Arquitecta y asesora inmobiliaria certificada especializada en compradores extranjeros. Inspecciones técnicas y protección de inversión.',
     },
     de: {
-      title: 'Sales Engineer Recruiter | Direktsuche für technische Vertriebsführung',
-      description: 'Spezialisierter Personalberater für Sales Engineers und technische Führungskräfte. Direktsuche – die meisten Besetzungen aus passiven Kandidaten. Deutschland, Schweiz, USA. Seit 2015.'
+      title: 'The Paradise Architect | Immobilien mit technischer Due Diligence – Riviera Maya',
+      description: 'Kaufen Sie Immobilien in Playa del Carmen, Tulum und Cancún mit Vertrauen. Lizenzierte Architektin und Immobilienberaterin für ausländische Käufer. Technische Inspektionen und Investitionsschutz.',
     },
-    fr: {
-      title: 'Recruteur Sales Engineer | Recherche Directe Leadership Commercial Technique',
-      description: 'Recruteur spécialisé pour Sales Engineers et leadership technique. Recherche directe – la plupart des placements de candidats passifs. Allemagne, Suisse, USA.'
-    }
-  },
-  testimonials: {
-    en: {
-      title: 'Client References & Case Studies | Sales Engineer Recruitment Success',
-      description: 'Proven track record with reference clients since 2016. 10+ placements at Megger Group. Real testimonials from managing directors and CEOs. Request reference calls.'
-    },
-    de: {
-      title: 'Kundenreferenzen & Erfolgsgeschichten | Sales Engineer Recruiting Erfolge',
-      description: 'Nachgewiesene Erfolgsbilanz mit Referenzkunden seit 2016. 10+ Besetzungen bei der Megger Group. Echte Testimonials von Geschäftsführern und CEOs.'
-    },
-    fr: {
-      title: 'Références Clients & Études de Cas | Succès Recrutement Sales Engineer',
-      description: 'Historique prouvé avec clients de référence depuis 2016. 10+ placements chez Megger Group. Témoignages réels de directeurs généraux.'
-    }
   },
   about: {
     en: {
-      title: 'About Skytz Consulting | Sales Engineering Recruitment Specialist Since 2015',
-      description: 'Specialist recruitment for Sales Engineering and leadership roles. Direct search, documented trade-offs, honest feedback. DACH market expertise with US base.'
+      title: 'About Marisol Rosales Trujillo | The Paradise Architect',
+      description: 'Meet your architect-agent in Playa del Carmen. Licensed architect with real estate certification helping foreign buyers invest safely in the Mexican Caribbean.',
+    },
+    es: {
+      title: 'Conoce a Marisol Rosales Trujillo | The Paradise Architect',
+      description: 'Conoce a tu arquitecta-asesora en Playa del Carmen. Arquitecta certificada con licencia inmobiliaria ayudando a compradores extranjeros a invertir de forma segura en el Caribe Mexicano.',
     },
     de: {
-      title: 'Über Skytz Consulting | Sales Engineering Personalberatung seit 2015',
-      description: 'Spezialisierte Personalberatung für Sales Engineering und Führungsrollen. Direktsuche, dokumentierte Abwägungen, ehrliches Feedback. DACH-Expertise.'
+      title: 'Über Marisol Rosales Trujillo | The Paradise Architect',
+      description: 'Lernen Sie Ihre Architektin-Maklerin in Playa del Carmen kennen. Lizenzierte Architektin mit Immobilienzertifizierung für sichere Investitionen ausländischer Käufer in der mexikanischen Karibik.',
     },
-    fr: {
-      title: 'À Propos de Skytz Consulting | Spécialiste Recrutement Sales Engineering depuis 2015',
-      description: 'Recrutement spécialisé pour Sales Engineering et postes de direction. Recherche directe, compromis documentés, feedback honnête.'
-    }
   },
   contact: {
     en: {
-      title: 'Meet Philipp | Schedule a Call with Skytz Consulting',
-      description: 'Book a direct conversation about your Sales Engineer or technical leadership hiring needs. No gatekeepers, no forms. Free initial consultation.'
+      title: 'Contact The Paradise Architect | Schedule a Consultation',
+      description: 'Ready to find your property in the Riviera Maya? Schedule a free consultation with Marisol Rosales Trujillo, your architect-agent in Playa del Carmen.',
+    },
+    es: {
+      title: 'Contacto | The Paradise Architect | Agenda una Consulta',
+      description: '¿Listo para encontrar tu propiedad en la Riviera Maya? Agenda una consulta gratuita con Marisol Rosales Trujillo, tu arquitecta-asesora en Playa del Carmen.',
     },
     de: {
-      title: 'Philipp treffen | Gespräch mit Skytz Consulting vereinbaren',
-      description: 'Buchen Sie ein direktes Gespräch über Ihre Sales Engineer oder technische Führungskräfte-Anforderungen. Keine Gatekeeper, keine Formulare. Kostenlose Erstberatung.'
+      title: 'Kontakt | The Paradise Architect | Beratung vereinbaren',
+      description: 'Bereit, Ihre Immobilie an der Riviera Maya zu finden? Vereinbaren Sie eine kostenlose Beratung mit Marisol Rosales Trujillo, Ihrer Architektin-Maklerin in Playa del Carmen.',
     },
-    fr: {
-      title: 'Rencontrer Philipp | Planifier un Appel avec Skytz Consulting',
-      description: 'Réservez une conversation directe sur vos besoins en recrutement Sales Engineer ou leadership technique. Sans intermédiaire, sans formulaire.'
-    }
   },
   privacy: {
     en: {
-      title: 'Privacy Policy | GDPR & CCPA Compliant',
-      description: 'Privacy Policy for Skytz Consulting. GDPR and CCPA compliant data handling. Learn how we protect your personal information.'
+      title: 'Privacy Policy | The Paradise Architect',
+      description: 'Privacy policy for The Paradise Architect real estate services in Playa del Carmen, Mexico.',
+    },
+    es: {
+      title: 'Política de Privacidad | The Paradise Architect',
+      description: 'Política de privacidad para los servicios inmobiliarios de The Paradise Architect en Playa del Carmen, México.',
     },
     de: {
-      title: 'Datenschutzerklärung | DSGVO & CCPA konform',
-      description: 'Datenschutzerklärung von Skytz Consulting. DSGVO und CCPA-konforme Datenverarbeitung. Erfahren Sie, wie wir Ihre Daten schützen.'
+      title: 'Datenschutzerklärung | The Paradise Architect',
+      description: 'Datenschutzerklärung für die Immobiliendienstleistungen von The Paradise Architect in Playa del Carmen, Mexiko.',
     },
-    fr: {
-      title: 'Politique de Confidentialité | Conforme RGPD & CCPA',
-      description: 'Politique de confidentialité de Skytz Consulting. Traitement des données conforme au RGPD et CCPA.'
-    }
   },
   terms: {
     en: {
-      title: 'Terms & Conditions | Skytz Consulting',
-      description: 'Terms and Conditions for Skytz Consulting recruitment services. Legal framework for executive search engagements.'
+      title: 'Terms & Conditions | The Paradise Architect',
+      description: 'Terms of use for The Paradise Architect website and real estate services.',
+    },
+    es: {
+      title: 'Términos y Condiciones | The Paradise Architect',
+      description: 'Términos de uso para el sitio web y servicios inmobiliarios de The Paradise Architect.',
     },
     de: {
-      title: 'Allgemeine Geschäftsbedingungen | Skytz Consulting',
-      description: 'AGB für Skytz Consulting Personalberatung. Rechtlicher Rahmen für Executive Search Mandate.'
+      title: 'Allgemeine Geschäftsbedingungen | The Paradise Architect',
+      description: 'Nutzungsbedingungen für die Website und Immobiliendienstleistungen von The Paradise Architect.',
     },
-    fr: {
-      title: 'Conditions Générales | Skytz Consulting',
-      description: 'Conditions générales pour les services de recrutement Skytz Consulting.'
-    }
-  }
+  },
 };
+
+export default function SEO({ title, description, image, noindex = false }) {
+  const { i18n } = useTranslation();
+  const location = useLocation();
+  const lang = i18n.language || 'en';
+
+  useEffect(() => {
+    // Update document title
+    if (title) {
+      document.title = title;
+    }
+
+    // Update meta description
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription && description) {
+      metaDescription.setAttribute('content', description);
+    }
+
+    // Update OG tags
+    const ogTitle = document.querySelector('meta[property="og:title"]');
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    const ogUrl = document.querySelector('meta[property="og:url"]');
+    
+    if (ogTitle && title) ogTitle.setAttribute('content', title);
+    if (ogDescription && description) ogDescription.setAttribute('content', description);
+    if (ogUrl) ogUrl.setAttribute('content', `https://theparadisearchitect.com${location.pathname}`);
+
+    // Update Twitter tags
+    const twitterTitle = document.querySelector('meta[name="twitter:title"]');
+    const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+    
+    if (twitterTitle && title) twitterTitle.setAttribute('content', title);
+    if (twitterDescription && description) twitterDescription.setAttribute('content', description);
+
+    // Update canonical
+    const canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical) {
+      canonical.setAttribute('href', `https://theparadisearchitect.com${location.pathname}`);
+    }
+
+    // Update robots meta if noindex
+    let robotsMeta = document.querySelector('meta[name="robots"]');
+    if (noindex) {
+      if (robotsMeta) {
+        robotsMeta.setAttribute('content', 'noindex, nofollow');
+      }
+    } else {
+      if (robotsMeta) {
+        robotsMeta.setAttribute('content', 'index, follow, max-image-preview:large');
+      }
+    }
+
+    // Update hreflang based on current language
+    const hreflangEn = document.querySelector('link[hreflang="en"]');
+    const hreflangEs = document.querySelector('link[hreflang="es"]');
+    const hreflangDe = document.querySelector('link[hreflang="de"]');
+    const hreflangDefault = document.querySelector('link[hreflang="x-default"]');
+    
+    const basePath = location.pathname.replace(/^\/(en|es|de)/, '');
+    
+    if (hreflangEn) hreflangEn.setAttribute('href', `https://theparadisearchitect.com/en${basePath}`);
+    if (hreflangEs) hreflangEs.setAttribute('href', `https://theparadisearchitect.com/es${basePath}`);
+    if (hreflangDe) hreflangDe.setAttribute('href', `https://theparadisearchitect.com/de${basePath}`);
+    if (hreflangDefault) hreflangDefault.setAttribute('href', `https://theparadisearchitect.com/en${basePath}`);
+
+  }, [title, description, image, noindex, location, lang]);
+
+  return null;
+}

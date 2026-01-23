@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "title": "The Paradise Architect | Asesoría Inmobiliaria y Arquitectónica",
+    "description": "No compres a ciegas. Combinamos auditoría arquitectónica con asesoría de compra experta en la Riviera Maya. Tu inversión segura en Playa del Carmen, Tulum y Cancún."
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Nuestro Método",
+    "about": "Quiénes Somos",
+    "contact": "Contacto",
+    "foreignBuyers": "Guía Segura",
+    "privacy": "Privacidad",
+    "terms": "Términos"
+  },
+  "hero": {
+    "tagline": "Asesoría Inmobiliaria Arquitectónica · Riviera Maya",
+    "headline": "No solo encontramos el Paraíso.\nDiseñamos tu Seguridad.",
+    "subhead": "La mayoría te vende la vista. Nosotros revisamos los cimientos, los permisos y la reputación del desarrollador. Una asesoría boutique para quienes exigen certeza.",
+    "cta": {
+      "primary": "Agenda Consulta Gratis",
+      "secondary": "Ver Estándares"
+    },
+    "signature": "Marisol y Philipp · The Paradise Architect"
+  },
+  "team": {
+    "title": "Tus Aliados en el Paraíso",
+    "subtitle": "El Poder de la Doble Perspectiva",
+    "description": "Necesitas más que un vendedor. Necesitas un defensor. Combinamos el ojo técnico de Marisol con la precisión de procesos de Philipp. Somos tu filtro contra malas inversiones.",
+    "marisol": {
+      "name": "Marisol Rosales Trujillo",
+      "role": "Arquitecta Líder y Broker",
+      "focus": "Due Diligence Técnica · Negociación",
+      "description": "Arquitecta y Asesora Inmobiliaria Licenciada. Marisol ve lo que otros ignoran: grietas, drenaje y permisos. Ella defiende tus intereses con conocimiento técnico."
+    },
+    "philipp": {
+      "name": "Philipp Hoffschröer",
+      "role": "Director de Estrategia",
+      "focus": "Procesos Internacionales",
+      "description": "Tu socio estratégico. Philipp asegura que tu proceso de compra siga estándares internacionales de claridad y comunicación. Traduce 'México' a un proceso que tú entiendes."
+    }
+  },
+  "valueProps": {
+    "title": "La Diferencia del Arquitecto",
+    "subtitle": "Por qué los Compradores Inteligentes nos Eligen",
+    "items": {
+      "technical": {
+        "title": "Auditoría Técnica",
+        "description": "No vendemos 'fotos bonitas'. Inspeccionamos la calidad constructiva, sistemas y estructura antes de que firmes."
+      },
+      "permits": {
+        "title": "Verificación Legal",
+        "description": "Verificamos que los papeles del desarrollador estén realmente en orden. Sin promesas de 'pre-venta', solo hechos."
+      },
+      "foreigners": {
+        "title": "Comunicación Nativa",
+        "description": "Explicamos procesos complejos con claridad total en Español, Inglés o Alemán."
+      },
+      "local": {
+        "title": "Acceso Insider",
+        "description": "Basados en Playa del Carmen, sabemos qué desarrolladores cumplen y cuáles toman atajos."
+      }
+    }
+  },
+  "services": {
+    "title": "Asesoría Integral",
+    "subtitle": "Desde la Búsqueda hasta las Llaves",
+    "description": "No somos vendedores masivos. Somos asesores a medida para un grupo selecto de clientes."
+  },
+  "foreignBuyers": {
+    "title": "Invertir en México",
+    "subtitle": "Seguro, Legal y Rentable",
+    "description": "México es un lugar seguro para invertir si sigues las reglas. Te guiamos a través del Fideicomiso, impuestos y cierre sin ambigüedades.",
+    "items": {
+      "fideicomiso": {
+        "title": "El Fideicomiso",
+        "description": "Tu herramienta legal para poseer propiedad en la zona restringida. Seguro, perpetuo y heredable. Gestionamos todo el trámite."
+      },
+      "taxes": {
+        "title": "Planeación Fiscal",
+        "description": "Te ayudamos a entender los impuestos de adquisición (~3%) y predial, y a planear la eficiencia en plusvalía."
+      },
+      "process": {
+        "title": "El Proceso de Cierre",
+        "description": "Coordinamos Notaría, Banco y Vendedor. Revisamos cada borrador de escritura antes de tu firma."
+      },
+      "payments": {
+        "title": "Pagos Globales",
+        "description": "Paga honorarios en USD, EUR o MXN. Usamos cuentas internacionales para facilitar tu vida."
+      }
+    }
+  },
+  "areas": {
+    "title": "Mercados Prime",
+    "subtitle": "¿Dónde Invertir?",
+    "items": {
+      "playa": {
+        "name": "Playa del Carmen",
+        "description": "Vida cosmopolita y costera. Alta ocupación en rentas y estilo de vida caminable."
+      },
+      "tulum": {
+        "name": "Tulum",
+        "description": "Eco-chic y lujo en la selva. Alto potencial de plusvalía en proyectos seleccionados."
+      },
+      "cancun": {
+        "name": "Cancún",
+        "description": "El centro de conectividad. Mercado robusto de rentas a largo plazo y condominios de lujo."
+      },
+      "riviera": {
+        "name": "Costa Riviera Maya",
+        "description": "Puerto Aventuras, Akumal y Puerto Morelos. Comunidades cerradas y playas tranquilas."
+      }
+    }
+  },
+  "about": {
+    "title": "Nuestra Historia",
+    "credentials": {
+      "title": "Credenciales",
+      "items": [
+        "Arquitecta Titulada (Marisol)",
+        "Licencia Inmobiliaria Estatal",
+        "Miembro AMPI",
+        "10+ Años de Experiencia"
+      ]
+    },
+    "origin": {
+      "subtitle": "La Verdad",
+      "title": "Por qué Creamos Esto",
+      "content": "Este negocio no nació para vender casas. Nació porque comprar una casa aquí fue una pesadilla. Cuando Philipp se mudó a México, intentaron comprar propiedad. Aún siendo arquitecta, Marisol se sorprendió por la falta de profesionalismo: Agentes que no respondían. Departamentos de 'lujo' con malas instalaciones. Problemas legales ocultos. Casi pierden dinero en un mal trato.",
+      "conclusion": "Decidimos: 'Suficiente.' Construimos The Paradise Architect para ser el servicio que deseábamos tener. Un servicio donde un Arquitecto protege tu activo y un Europeo gestiona el proceso. Sin relleno. Solo competencia."
+    }
+  },
+  "premium": {
+    "title": "Modelo Premium",
+    "subtitle": "Asesoría Seria para Compradores Serios",
+    "description": "La mayoría de los agentes no tienen lealtad hasta que te venden algo. Nosotros trabajamos diferente. Te representamos a TI, no al vendedor.",
+    "commitment": {
+      "items": [
+        "Escaneo Imparcial del Mercado (Buscamos en TODO el mercado)",
+        "Reporte de Calidad Arquitectónica en propiedades finalistas",
+        "Inspecciones documentadas en video si compras a distancia",
+        "Negociación agresiva de precio usando hallazgos técnicos",
+        "Coordinación total de cierre (Legal y Notarial)"
+      ]
+    },
+    "promise": {
+      "title": "Nuestra Promesa",
+      "content": "Si no encontramos una propiedad que pase nuestros estándares arquitectónicos, te aconsejaremos NO comprar. Protegemos tu capital primero."
+    },
+    "fee": {
+      "title": "Fee de Compromiso",
+      "amount": "$2,000 USD",
+      "description": "Cobramos un fee inicial deducible. Esto filtra a los curiosos y nos permite trabajar intensamente en tu nombre antes de que hagas una oferta.",
+      "note": "100% Acreditado a tu compra al cierre."
+    },
+    "minimum": {
+      "title": "Perfil de Cliente",
+      "amount": "$250k+ USD",
+      "description": "Nos especializamos en propiedades donde la calidad arquitectónica es primordial."
+    }
+  },
+  "contact": {
+    "title": "Inicia tu Búsqueda",
+    "noCommitment": "Hablemos. Sin presiones.",
+    "booking": {
+      "label": "Agenda Videollamada",
+      "action": "Conoce a Marisol y Philipp"
+    },
+    "email": "Escríbenos",
+    "getInTouch": {
+      "description": "WhatsApp Directo con los Fundadores"
+    },
+    "location": {
+      "title": "Oficina",
+      "address": "Playa del Carmen, México"
+    },
+    "hours": {
+      "title": "Horario",
+      "weekdays": "Lun-Vie (Disponible para horarios EU y US)",
+      "timezone": "Nos adaptamos a tu agenda."
+    },
+    "ready": "¿Listo para comprar seguro?",
+    "description": "No apuestes con tu inversión. Ten la ventaja del arquitecto."
+  },
+  "footer": {
+    "legal": "The Paradise Architect",
+    "copyright": "© 2026 The Paradise Architect. Todos los derechos reservados."
+  }
+}

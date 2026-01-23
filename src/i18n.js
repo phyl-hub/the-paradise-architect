@@ -3,8 +3,8 @@ import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
 import en from './locales/en.json';
+import es from './locales/es.json';
 import de from './locales/de.json';
-import fr from './locales/fr.json';
 
 i18n
   .use(LanguageDetector)
@@ -12,11 +12,11 @@ i18n
   .init({
     resources: {
       en: { translation: en },
-      de: { translation: de },
-      fr: { translation: fr }
+      es: { translation: es },
+      de: { translation: de }
     },
-    fallbackLng: 'de', // Germany is main market
-    supportedLngs: ['en', 'de', 'fr'],
+    fallbackLng: 'en', // English is primary market (foreign buyers)
+    supportedLngs: ['en', 'es', 'de'],
     
     detection: {
       order: ['path', 'querystring', 'navigator', 'htmlTag'],

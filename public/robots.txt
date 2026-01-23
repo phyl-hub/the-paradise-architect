@@ -1,14 +1,11 @@
-# Robots.txt for Skytz Consulting
-# https://skytz-consulting.com
+# Robots.txt for The Paradise Architect
+# https://theparadisearchitect.com
 
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://skytz-consulting.com/sitemap.xml
-
-# Disallow admin or private paths (none currently)
-# Disallow: /admin/
+Sitemap: https://theparadisearchitect.com/sitemap.xml
 
 # Crawl-delay for polite crawling
 Crawl-delay: 1

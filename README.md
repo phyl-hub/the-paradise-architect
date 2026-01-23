@@ -1,102 +1,42 @@
-# Skytz Consulting
+# The Paradise Architect
 
-**Elite Direct Search for Sales Engineering & Executive Leadership**
+Professional real estate website for **Marisol Rosales Trujillo**, a licensed architect and real estate agent specializing in helping foreign buyers invest safely in the Mexican Caribbean.
 
-A premium recruitment consultancy specializing in revenue-critical technical talent for engineering-driven companies across Germany, Switzerland, and the United States.
+🌐 **Domain:** [theparadisearchitect.com](https://theparadisearchitect.com)
 
----
+## 🏝️ About
 
-## 🏛️ Brand Positioning
+The Paradise Architect combines architectural expertise with real estate advisory services. Unlike typical real estate agents who just "sell the dream," Marisol offers **Technical Due Diligence** — inspecting construction quality, verifying permits, and protecting buyers' investments.
 
-> "I secure revenue-critical engineering leadership and Sales Engineers for the world's most demanding technical firms."
-> 
-> — Philipp Hoffschröer, Founder
+### Key Differentiators
 
-### Trust Anchors
+- **Architect's Eye**: Professional evaluation of construction quality, drainage, electrical systems, and structure
+- **Permit Verification**: Confirmation that all construction licenses and permits are in order
+- **Foreign Buyer Specialist**: Expert guidance through fideicomiso, tax advantages, and Mexican legal process
+- **Local Knowledge**: Based in Playa del Carmen with connections throughout Quintana Roo
 
-| Client | Relationship | Achievement |
-|--------|-------------|-------------|
-| **Megger Group** | Partner since 2016 | 9+ key placements across Sales Engineering, Business Development, and Leadership |
-| **SWR Engineering** | Growth Partner | Strategic expansion support |
-| **Happersberger Otopront** | Medical Sector | Head of International Sales |
+## 🌍 Languages
 
----
+The site supports three languages:
+- **English** (primary) - for US/international buyers
+- **Spanish** - for local and Latin American clients  
+- **German** - for German-speaking European buyers
+
+## 🗺️ Areas Covered
+
+- Playa del Carmen (home base)
+- Tulum
+- Cancún
+- Riviera Maya (Puerto Aventuras, Akumal, Puerto Morelos, etc.)
 
 ## 🛠️ Tech Stack
 
-- **Framework:** React 19 + Vite
-- **Styling:** Tailwind CSS 4 with Swiss Industrial design system
-- **Animation:** Framer Motion
-- **i18n:** react-i18next with path-based routing (`/de`, `/en`, `/fr`)
-- **Icons:** Lucide React
-
----
-
-## 🌍 Internationalization
-
-Three-language support optimized for DACH and US markets:
-
-| Language | Path | Primary Markets |
-|----------|------|-----------------|
-| German | `/de` | Germany, Austria, Switzerland (D-A-CH) |
-| English | `/en` | United States, United Kingdom |
-| French | `/fr` | Switzerland (Romandie), France |
-
-### SEO: Hreflang Implementation
-
-Automatic hreflang tag injection for proper Google indexing:
-- `de-DE`, `de-CH`, `de-AT` → `/de/*`
-- `en-US`, `en-GB` → `/en/*`
-- `fr-CH`, `fr-FR` → `/fr/*`
-- `x-default` → `/de/*`
-
----
-
-## 🎨 Design System
-
-### Swiss Industrial Precision
-
-| Token | Value | Usage |
-|-------|-------|-------|
-| `slate-950` | `#020617` | Deep text, void backgrounds |
-| `slate-50` | `#f8fafc` | Clean background canvas |
-| `blueprint-600` | `#2563eb` | Primary CTA, trust signals |
-| `Inter` | `-0.035em` tracking | Headlines (H1) |
-
-### Key Components
-
-- **Bento Grid:** 12-column responsive layout with generous "air"
-- **Swiss Bank Card:** Premium dark gradient for authority tiles
-- **Clarity Transition:** Headshot grayscale→color reveal on scroll/hover
-
----
-
-## 📁 Project Structure
-
-```
-src/
-├── components/
-│   ├── layout/        # Header, Footer
-│   └── ui/            # BentoCard, LanguageSwitcher
-├── hooks/
-│   └── useLanguage.js # i18n path utilities
-├── locales/
-│   ├── de.json        # German (primary)
-│   ├── en.json        # English
-│   └── fr.json        # French
-├── pages/
-│   ├── Home.jsx       # Persuasion engine (Bento Grid)
-│   ├── About.jsx
-│   ├── Contact.jsx
-│   ├── CaseStudies.jsx
-│   ├── Privacy.jsx
-│   └── Terms.jsx
-├── App.jsx            # Router + Hreflang SEO
-├── i18n.js            # i18next configuration
-└── index.css          # Swiss typography + custom utilities
-```
-
----
+- **React 19** with Vite
+- **Tailwind CSS** for styling
+- **Framer Motion** for animations
+- **i18next** for internationalization
+- **React Router** for navigation
+- **Lucide React** for icons
 
 ## 🚀 Getting Started
 
@@ -104,50 +44,52 @@ src/
 # Install dependencies
 npm install
 
-# Development server
+# Start development server
 npm run dev
 
-# Production build
+# Build for production
 npm run build
 
 # Preview production build
 npm run preview
 ```
 
----
+## 📁 Project Structure
 
-## 📊 Key Metrics (Trust Signals)
-
-- **85%** of placements from passive candidates (direct outreach)
-- **95%** client rehire rate
-- **10+ years** of precision search experience
-- **Partner since 2016** with Megger Group
-
----
-
-## 🏢 Legal Structure
-
-**Operating Entity:** Laurasia LLC (Wyoming, USA)  
-**DACH Executive Partner:** Philipp Hoffschröer  
-
-Address:
 ```
-Laurasia LLC
-1309 Coffeen Avenue STE 1200
-Sheridan, WY 82801
-United States
+src/
+├── components/
+│   ├── layout/         # Header, Footer
+│   ├── ui/             # LanguageSwitcher, etc.
+│   └── SEO.jsx         # SEO meta management
+├── content/
+│   └── siteContent.js  # Centralized site content
+├── hooks/
+│   └── useLanguage.js  # Language switching hook
+├── locales/
+│   ├── en.json         # English translations
+│   ├── es.json         # Spanish translations
+│   └── de.json         # German translations
+├── pages/
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── Contact.jsx
+│   ├── Privacy.jsx
+│   └── Terms.jsx
+└── App.jsx
 ```
 
----
+## 📋 TODO Before Launch
 
-## 📬 Contact
+- [ ] Add Marisol's professional photo
+- [ ] Update phone number in siteContent.js
+- [ ] Update WhatsApp link with actual number
+- [ ] Add calendar booking link (Google Calendar or Calendly)
+- [ ] Create og-image.jpg for social sharing
+- [ ] Update favicon with new branding
+- [ ] Connect domain to hosting
+- [ ] Set up analytics (Google Analytics / Plausible)
 
-- **Email:** philipp@skytz.de
-- **Phone:** +49 176 8017 8907
-- **Website:** [skytz-consulting.com](https://skytz-consulting.com)
+## 📄 License
 
----
-
-<p align="center">
-  <sub>Built with precision. Deployed with confidence.</sub>
-</p>
+Private project for The Paradise Architect / Marisol Rosales Trujillo.

@@ -1,321 +1,188 @@
 {
   "meta": {
-    "title": "Skytz Consulting | Direktsuche für Sales Engineering & Executive Leadership",
-    "description": "Ich besetze umsatzkritische Engineering-Führungspositionen und Sales Engineers für anspruchsvollste Technologieunternehmen. Direktsuche, keine Datenbanken. DACH & USA."
+    "title": "The Paradise Architect | Immobilienberatung & Architekt Mexik",
+    "description": "Kaufen Sie nicht blind. Wir kombinieren architektonische Prüfung mit professioneller Kaufberatung an der Riviera Maya. Der sichere Weg zur Immobilie in Playa del Carmen, Tulum & Cancún."
   },
   "nav": {
     "home": "Startseite",
-    "testimonials": "Referenzen",
-    "about": "Über uns",
-    "contact": "Philipp treffen",
+    "services": "Arbeitsweise",
+    "about": "Über Uns",
+    "contact": "Kontakt",
+    "foreignBuyers": "Sicher Kaufen",
     "privacy": "Datenschutz",
     "terms": "AGB"
   },
   "hero": {
-    "tagline": "Deutschland · Schweiz · USA",
-    "headline": "Engineering Talent.\nPräzise Platziert.",
-    "subhead": "Ich besetze umsatzkritische Schlüsselpositionen im Sales Engineering und der technischen Führung – mit 10 Jahren Projekterfahrung und höchster Diskretion. Die meisten meiner Platzierungen waren nie aktiv auf Jobsuche.",
+    "tagline": "Architektur & Immobilienberatung · Riviera Maya",
+    "headline": "Wir finden nicht nur das Paradies.\nWir sichern es ab.",
+    "subhead": "Die meisten Makler zeigen Ihnen nur die Aussicht. Wir prüfen das Fundament, die Baugenehmigungen und die Substanz. Eine Boutique-Beratung für Käufer, die nicht blind vertrauen wollen.",
     "cta": {
-      "primary": "Gespräch vereinbaren",
-      "secondary": "Referenzen ansehen"
+      "primary": "Kostenloses Erstgespräch",
+      "secondary": "Unser Standard"
     },
-    "signature": "Philipp Hoffschröer, Gründer"
+    "signature": "Marisol & Philipp · The Paradise Architect"
   },
-  "stats": {
-    "passive": {
-      "value": "Direkt",
-      "label": "Suchansatz",
-      "subtext": "Die meisten Besetzungen durch Direktansprache"
+  "team": {
+    "title": "Ihre Anwälte im Paradies",
+    "subtitle": "Die Kraft doppelter Expertise",
+    "description": "Sie brauchen mehr als einen Verkäufer. Sie brauchen einen Interessenvertreter. Wir kombinieren Marisols technischen Architekten-Blick mit Philipps deutscher Prozess-Präzision. Wir sind Ihr Filter gegen schlechte Investments.",
+    "marisol": {
+      "name": "Marisol Rosales Trujillo",
+      "role": "Leitende Architektin & Maklerin",
+      "focus": "Technische Due Diligence · Lokale Verhandlung",
+      "description": "Lizenzierte Architektin & Immobilienberaterin. Marisol sieht, was andere übersehen: Risse in der Struktur, Entwässerungsprobleme und fehlende Genehmigungen. Sie kämpft auf Spanisch für Ihr Recht."
+    },
+    "philipp": {
+      "name": "Philipp Hoffschröer",
+      "role": "Strategie & Prozesse",
+      "focus": "Internationaler Ablauf · Englisch & Deutsch",
+      "description": "Ihr strategischer Partner. Philipp sorgt dafür, dass Ihr Kaufprozess nach europäischen Standards für Klarheit und Kommunikation abläuft. Er übersetzt 'Mexiko' in einen Prozess, den Sie verstehen."
     }
   },
-  "footer": {
-    "legal": "Skytz Consulting (eine Marke der Laurasia LLC)",
-    "address": "1309 Coffeen Avenue STE 1200, Sheridan, WY 82801, USA",
-    "links": {
-      "privacy": "Datenschutz",
-      "terms": "AGB",
-      "imprint": "Impressum"
-    },
-    "copyright": "© {{year}} Skytz Consulting. Alle Rechte vorbehalten."
-  },
-  "testimonials": {
-    "title": "Referenzkunden",
-    "subtitle": "Nachgewiesene Erfolge",
-    "description": "Echte Mandate. Referenzgespräche auf Anfrage verfügbar.",
-    "clients": {
-      "megger": {
-        "company": "Megger Germany GmbH",
-        "industry": "Elektrische Messtechnik",
-        "badge": "Partner seit 2016",
-        "contact": "Friedrich Enkert",
-        "role": "Geschäftsführer",
-        "quote": "Er hat eine beeindruckende Erfolgsbilanz vorzuweisen, indem er eine hohe Anzahl hochqualifizierter Kandidaten erfolgreich für Schlüsselpositionen in unserem Unternehmen rekrutiert hat.",
-        "outcome": "10+ Besetzungen",
-        "highlights": [
-          "Mehrfachbesetzung von Vertriebs- und kaufmännischen Schlüsselrollen sowie Führungspositionen",
-          "Europaweite Besetzungen, teilweise in Tochtergesellschaften",
-          "Kontinuierliche Zusammenarbeit seit 2016"
-        ]
+  "valueProps": {
+    "title": "Der Architekten-Unterschied",
+    "subtitle": "Warum kluge Käufer uns wählen",
+    "items": {
+      "technical": {
+        "title": "Technisches Audit",
+        "description": "Wir verkaufen keine 'schönen Bilder'. Wir prüfen Bauqualität, MEP-Systeme und strukturelle Integrität, bevor Sie unterschreiben."
       },
-      "swr": {
-        "company": "Südwestdeutsche Rohrleitungsbau GmbH",
-        "industry": "Rohrleitungsbau",
-        "contact": "Dirk Heesen",
-        "role": "Geschäftsführer",
-        "quote": "... sorgfältige Auswahl von Kandidaten, die nicht nur die erforderlichen Fähigkeiten besitzen, sondern auch optimal zu unserer Unternehmenskultur passen.",
-        "highlights": [
-          "Mehrere Bauleiterpostionen besetzt",
-          "Operative und Fach-Rollen rekrutiert",
-          "Zusammenarbeit seit 2016"
-        ]
+      "permits": {
+        "title": "Recht & Genehmigungen",
+        "description": "Wir verifizieren, ob die Papiere des Entwicklers wirklich in Ordnung sind. Keine 'Pre-Sale'-Versprechungen—nur Fakten."
       },
-      "sebakmt": {
-        "company": "SebaKMT by Megger",
-        "industry": "Mess- und Ortungstechnik für Rohrnetze",
-        "contact": "Sascha Kuflik",
-        "role": "Geschäftsbereichsleiter",
-        "quote": "Ich habe Philipp zunächst als Kandidat kennengelernt und später als Auftraggeber bei SebaKMT beauftragt. Aus dieser doppelten Perspektive kann ich bestätigen, dass seine Beratung strukturiert ist und zu belastbaren Besetzungsergebnissen führt.",
-        "quoteNote": "Übersetzung aus dem englischen Original",
-        "highlights": [
-          "2018 als Kandidat vermittelt",
-          "Wurde zum Auftraggeber",
-          "Langjährige Zusammenarbeit"
-        ]
+      "foreigners": {
+        "title": "Muttersprachliche Klarheit",
+        "description": "Wir erklären komplexe mexikanische Prozesse in klarem Deutsch oder Englisch. Keine 'Lost in Translation'-Momente."
       },
-      "otopront": {
-        "company": "Happersberger otopront GmbH",
-        "industry": "Medizintechnik / HNO",
-        "contact": "Carlo Happersberger",
-        "role": "CEO",
-        "quote": "Während unserer Zusammenarbeit führte Philipp zwei erfolgreiche Personalbesetzungen durch. Die Zusammenarbeit war professionell, diskret und geprägt von einem strukturierten und effizienten Einstellungsprozess.",
-        "highlights": [
-          "Internationale Vertriebsmanager-Positionen besetzt",
-          "Hohe Diskretion"
-        ]
-      },
-      "box02": {
-        "company": "Box02 LLC",
-        "industry": "E-Commerce",
-        "contact": "Sebastian Wolff",
-        "role": "Founder & CEO",
-        "quote": "Philipp unterstützte uns bei der Besetzung von zwei Marketing-Managern. Der Prozess war effizient, gut strukturiert und führte zu Kandidaten, die sowohl fachlich als auch kulturell passten.",
-        "highlights": [
-          "Zwei Marketing-Manager erfolgreich besetzt",
-          "Effizienter, strukturierter Rekrutierungsprozess",
-          "Passgenaue Kandidatenauswahl"
-        ]
+      "local": {
+        "title": "Insider-Zugang",
+        "description": "Mit Sitz in Playa del Carmen wissen wir, welche Entwickler Qualität liefern und welche an der falschen Stelle sparen."
       }
-    },
-    "cta": {
-      "title": "Vollständige Referenzschreiben gewünscht?",
-      "description": "Ich kann schriftliche Referenzen bereitstellen und Gespräche mit früheren Kunden arrangieren.",
-      "button": "Referenzen anfragen"
+    }
+  },
+  "services": {
+    "title": "Umfassende Beratung",
+    "subtitle": "Von der Suche bis zum Schlüssel",
+    "description": "Wir sind keine Massenabfertigung. Wir sind maßgeschneiderte Berater für eine ausgewählte Gruppe von Klienten."
+  },
+  "foreignBuyers": {
+    "title": "Kaufen als Ausländer",
+    "subtitle": "Sicher, Legal, Seriös",
+    "description": "Mexiko ist ein sicherer Investitionsstandort—wenn man die Regeln befolgt. Wir führen Sie ohne Unklarheiten durch Fideicomiso, Steuern und Abschluss.",
+    "items": {
+      "fideicomiso": {
+        "title": "Der Bank-Trust (Fideicomiso)",
+        "description": "Sie besitzen die Immobilie vollständig über einen Bank-Trust. Es ist sicher, unbefristet und vererbbar. Wir managen die Einrichtung."
+      },
+      "taxes": {
+        "title": "Smarte Steuerplanung",
+        "description": "Wir helfen Ihnen, Erwerbssteuern (~3%) und Grundsteuern (sehr niedrig) zu verstehen und planen für die Kapitalertragssteuer."
+      },
+      "process": {
+        "title": "Der Notartermin",
+        "description": "Wir koordinieren Notar, Bank und Verkäufer. Wir prüfen jeden Urkundenentwurf, bevor Sie unterschreiben."
+      },
+      "payments": {
+        "title": "Einfache Zahlungen",
+        "description": "Zahlen Sie Beratungsgebühren in USD, EUR oder MXN. Wir nutzen konforme internationale Konten, um es Ihnen einfach zu machen."
+      }
+    }
+  },
+  "areas": {
+    "title": "Prime Märkte",
+    "subtitle": "Wo Investieren?",
+    "items": {
+      "playa": {
+        "name": "Playa del Carmen",
+        "description": "Kosmopolitisches Küstenleben. Hohe Auslastung bei Vermietung und alles zu Fuß erreichbar."
+      },
+      "tulum": {
+        "name": "Tulum",
+        "description": "Eco-Chic Dschungel-Luxus. Hohes Wertsteigerungspotenzial bei sorgfältig ausgewählten Projekten."
+      },
+      "cancun": {
+        "name": "Cancún",
+        "description": "Das Drehkreuz. Robuster Markt für Langzeitmieten und Luxus-Condos."
+      },
+      "riviera": {
+        "name": "Riviera Maya Küste",
+        "description": "Puerto Aventuras, Akumal & Morelos. Geschlossene Communities und ruhige Strände."
+      }
     }
   },
   "about": {
-    "title": "Über Skytz Consulting",
-    "subtitle": "Seit 2015",
-    "description": "Spezialisierte Personalberatung für Sales Engineering und Führungspositionen in technologiegetriebenen Unternehmen.",
-    "beliefsTitle": "Was ich glaube",
-    "beliefs": {
-      "expertise": {
-        "title": "Sales Engineering ist mehr als 'Vertrieb mit Tech-Titel'",
-        "description": "Es erfordert Domain-Expertise, technische Glaubwürdigkeit und kaufmännisches Gespür."
-      },
-      "alignment": {
-        "title": "Führungskräfte scheitern häufiger an Missalignment als an Kompetenz",
-        "description": "Deshalb dokumentiere ich Risiken frühzeitig."
-      },
-      "decision": {
-        "title": "Gute Personalberatung ist Entscheidungsunterstützung",
-        "description": "Sie sollten wissen, warum ich jemanden empfehle – und warum nicht."
-      }
+    "title": "Unsere Geschichte",
+    "credentials": {
+      "title": "Qualifikationen",
+      "items": [
+        "Lizenzierte Architektin (Marisol)",
+        "Zertifizierte Immobilienmaklerin",
+        "AMPI Mitglied",
+        "10+ Jahre Lokale Erfahrung"
+      ]
     },
-    "operationsTitle": "Wie ich arbeite",
-    "operations": {
-      "direct": {
-        "title": "Direktsuche",
-        "description": "Die meisten Besetzungen kommen von Kandidaten, die ich direkt anspreche."
-      },
-      "documented": {
-        "title": "Dokumentierte Abwägungen",
-        "description": "Jeder Kandidat kommt mit Risikohinweisen und Begründung."
-      },
-      "honest": {
-        "title": "Ehrliches Feedback",
-        "description": "Wenn Erwartungen nicht zur Realität passen, sage ich das direkt."
-      }
+    "origin": {
+      "subtitle": "Die Wahrheit",
+      "title": "Warum es diesen Service gibt",
+      "content": "Dieses Unternehmen wurde nicht gegründet, um Häuser zu verkaufen. Es wurde gegründet, weil der Hauskauf hier ein Albtraum war. Als Philipp nach Mexiko zog, wollten er und Marisol Wohneigentum kaufen. Selbst als Architektin war Marisol schockiert über den Mangel an Professionalität: Makler, die nicht antworteten. 'Luxus'-Wohnungen mit schlechter Verkabelung. Versteckte rechtliche Probleme. Sie hätten fast Geld bei einem schlechten Deal verloren.",
+      "conclusion": "Wir entschieden: 'Genug.' Wir bauten The Paradise Architect als den Service, den wir uns gewünscht hätten. Ein Service, wo eine Architektin Ihr Vermögen schützt und ein Europäer den Prozess steuert. Kein Gerede. Nur Kompetenz."
+    }
+  },
+  "premium": {
+    "title": "Das Premium Modell",
+    "subtitle": "Seriöse Beratung für seriöse Käufer",
+    "description": "Die meisten Makler sind Ihnen gegenüber nicht loyal, bis sie etwas verkauft haben. Wir arbeiten anders. Wir vertreten SIE, nicht den Verkäufer.",
+    "commitment": {
+      "items": [
+        "Unvoreingenommener Markt-Scan (Wir suchen den GESAMTEN Markt)",
+        "Architektonischer Qualitätsbericht für engere Auswahl",
+        "Video-dokumentierte Inspektionen (falls Sie remote sind)",
+        "Aggressive Preisverhandlung mit technischen Argumenten",
+        "Volle Abschlusskoordination (Recht & Notar)"
+      ]
     },
-    "legal": {
-      "title": "Rechtliche Struktur & Compliance",
-      "description": "Skytz Consulting operiert unter Laurasia LLC (Wyoming, USA) als strategische Basis. Wir erfüllen alle anwendbaren europäischen (einschließlich DSGVO) und US-amerikanischen Rechtsvorschriften. Philipp Hoffschröer ist der Executive Partner für alle DACH-Mandate."
+    "promise": {
+      "title": "Unser Versprechen",
+      "content": "Wenn wir keine Immobilie finden, die unseren architektonischen Standards entspricht, raten wir Ihnen vom Kauf ab. Wir schützen Ihr Kapital zuerst."
     },
-    "german": {
-      "title": "Zusammenarbeit mit deutschsprachigen Unternehmen",
-      "description": "Wir arbeiten mit deutschsprachigen Unternehmen zusammen und bieten Rekrutierungsexpertise auf Führungsebene mit tiefgreifender Kenntnis des deutschen Marktes, der Geschäftskultur und der Einstellungsstandards.",
-      "details": "Unsere Arbeit wird auf Deutsch und Englisch erbracht und ist für internationale Zusammenarbeit strukturiert. So erhalten Kunden in Deutschland Zugang zu spezialisierter Rekrutierungsunterstützung ohne die Einschränkungen eines lokal gebundenen Anbieters."
+    "fee": {
+      "title": "Aufnahmegebühr",
+      "amount": "$2.000 USD",
+      "description": "Wir berechnen eine verrechenbare Aufnahmegebühr. Dies filtert 'Schaufensterbummler' aus und erlaubt uns, hart für Sie zu arbeiten, bevor Sie überhaupt ein Angebot machen.",
+      "note": "Wird beim Abschluss zu 100% auf den Kaufpreis angerechnet."
     },
-    "swiss": {
-      "title": "Unterstützung für Schweizer Unternehmen",
-      "description": "Wir unterstützen Schweizer Unternehmen bei der Identifikation und Ansprache qualifizierter Engineering-Fachkräfte mit Sitz in Deutschland, die offen für grenzüberschreitende Karrieremöglichkeiten sind.",
-      "details": "Unser Mandat umfasst die Suche, Vorqualifizierung und Beratung von Kandidaten im Rahmen deutscher Vertrags- und Regulierungsvorschriften, während wir die Vorstellung bei Schweizer Arbeitgebern für Positionen ermöglichen, bei denen Umzug oder grenzüberschreitende Beschäftigung vom Kandidaten initiiert wird.",
-      "benefit": "Dieser Ansatz gewährleistet volle Compliance auf der Sourcing-Seite, einen transparenten Prozess für alle Beteiligten und Zugang zu einem hochrelevanten Talentpool, der mit dem Schweizer Markt und Arbeitsumfeld vertraut ist."
+    "minimum": {
+      "title": "Klienten-Profil",
+      "amount": "Ab $250k USD",
+      "description": "Wir spezialisieren uns auf Immobilien im mittleren bis gehobenen Segment, wo Bauqualität entscheidend ist."
     }
   },
   "contact": {
-    "title": "Lass uns sprechen",
-    "subtitle": "Direkt & unkompliziert",
-    "description": "Keine Formulare, keine Gatekeeper. Direkter Austausch über Ihre Anforderungen.",
-    "getInTouch": {
-      "title": "Kontakt aufnehmen",
-      "description": "Der schnellste Weg für ein erstes Gespräch über Ihre Besetzungsanforderungen."
-    },
+    "title": "Starten Sie Ihre Suche",
+    "noCommitment": "Lassen Sie uns einfach sprechen. Kein Druck.",
     "booking": {
-      "label": "Termin vereinbaren",
-      "action": "Direkt einen Termin buchen"
+      "label": "Video-Call Buchen",
+      "action": "Marisol & Philipp treffen"
     },
-    "phone": "Telefon",
-    "noCommitment": "Unverbindlich. Erste Gespräche immer kostenfrei.",
-    "fasterAlignment": {
-      "title": "Für schnellere Abstimmung",
-      "description": "Wenn Sie sich wegen einer konkreten Suche melden, nennen Sie:",
-      "items": {
-        "roleTitle": "Rollentitel und Verantwortungsbereich",
-        "location": "Standort / Region",
-        "seniority": "Seniorität",
-        "timeline": "Dringlichkeit / Zeitrahmen",
-        "compensation": "Gehaltsband (falls bekannt)"
-      }
+    "email": "E-Mail Senden",
+    "getInTouch": {
+      "description": "Direktes WhatsApp mit den Gründern"
     },
-    "office": {
-      "title": "Büro"
+    "location": {
+      "title": "Büro",
+      "address": "Playa del Carmen, Mexiko"
     },
     "hours": {
-      "title": "Erreichbarkeit",
-      "weekdays": "Mo–Fr: 09:00–18:00",
-      "timezone": "Zeitzone: CET / CEST"
-    }
+      "title": "Zeiten",
+      "weekdays": "Mo-Fr (Verfügbar für EU & US Zeitzonen)",
+      "timezone": "Wir richten uns nach Ihnen."
+    },
+    "ready": "Bereit, sicher zu kaufen?",
+    "description": "Spielen Sie nicht mit Ihrer Investition. Nutzen Sie den Architekten-Vorteil."
   },
-  "privacy": {
-    "title": "Datenschutzerklärung",
-    "lastUpdated": "Zuletzt aktualisiert: Januar 2026",
-    "intro": "Skytz Consulting (\"wir\", \"uns\", \"unser\") ist eine Marke der Laurasia LLC. Wir verpflichten uns zum Schutz Ihrer Privatsphäre und verarbeiten personenbezogene Daten in Übereinstimmung mit der EU-Datenschutz-Grundverordnung (DSGVO), dem California Consumer Privacy Act (CCPA) und anderen anwendbaren Datenschutzgesetzen.",
-    "controller": {
-      "title": "1. Verantwortlicher",
-      "description": "Der für Ihre personenbezogenen Daten verantwortliche Datenverantwortliche ist:"
-    },
-    "dataCollected": {
-      "title": "2. Personenbezogene Daten, die wir erheben",
-      "intro": "Wir erheben und verarbeiten folgende Kategorien personenbezogener Daten:",
-      "items": {
-        "contact": "Kontaktdaten: Name, E-Mail-Adresse, Telefonnummer, Firmenname, Berufsbezeichnung",
-        "email": "Kommunikationsdaten: Inhalt von E-Mails, Nachrichten und allen Anhängen, die Sie uns senden",
-        "technical": "Technische Daten: IP-Adresse, Browsertyp und -version, Zeitzone, Betriebssystem, Zugriffszeiten",
-        "candidate": "Berufsbezogene Daten (für Kandidaten): Lebenslauf, Berufserfahrung, Qualifikationen, Gehaltsvorstellungen",
-        "usage": "Nutzungsdaten: besuchte Seiten, Verweildauer, Referrer-Quelle"
-      }
-    },
-    "purpose": {
-      "title": "3. Zweck der Verarbeitung",
-      "intro": "Wir verarbeiten Ihre personenbezogenen Daten für folgende Zwecke:",
-      "items": {
-        "inquiries": "Beantwortung von Anfragen und Bereitstellung von Informationen über unsere Dienstleistungen",
-        "services": "Erbringung von Rekrutierungsdienstleistungen einschließlich Kandidatensuche, -bewertung und -vermittlung",
-        "website": "Betrieb, Wartung und Verbesserung dieser Website",
-        "legal": "Erfüllung gesetzlicher Pflichten und Schutz unserer rechtlichen Interessen",
-        "communication": "Kommunikation mit Ihnen über relevante Möglichkeiten oder Dienstleistungen"
-      }
-    },
-    "legalBasis": {
-      "title": "4. Rechtsgrundlage der Verarbeitung (DSGVO)",
-      "intro": "Für Personen im Europäischen Wirtschaftsraum (EWR), im Vereinigten Königreich und in der Schweiz verarbeiten wir personenbezogene Daten auf folgenden Rechtsgrundlagen:",
-      "items": {
-        "consent": "Einwilligung (Art. 6 Abs. 1 lit. a DSGVO): Wenn Sie ausdrücklich in bestimmte Verarbeitungstätigkeiten eingewilligt haben",
-        "contract": "Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO): Wenn die Verarbeitung zur Erfüllung eines Vertrags oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist",
-        "legitimate": "Berechtigtes Interesse (Art. 6 Abs. 1 lit. f DSGVO): Wenn die Verarbeitung für unsere berechtigten geschäftlichen Interessen erforderlich ist, wie z.B. Direktmarketing, Betrugsprävention und Serviceverbesserung",
-        "legal": "Rechtliche Verpflichtung (Art. 6 Abs. 1 lit. c DSGVO): Wenn die Verarbeitung zur Erfüllung gesetzlicher Pflichten erforderlich ist"
-      }
-    },
-    "sharing": {
-      "title": "5. Datenweitergabe & internationale Übermittlung",
-      "description": "Wir verkaufen Ihre personenbezogenen Daten nicht. Wir können Daten weitergeben an: (a) Kunden, ausschließlich für Rekrutierungszwecke und nur mit Ihrer Einwilligung; (b) Dienstleister, die unsere Geschäftstätigkeit unter strengen Vertraulichkeitsvereinbarungen unterstützen; (c) Behörden, wenn gesetzlich vorgeschrieben. Daten können in die Vereinigten Staaten übertragen werden, wo Laurasia LLC ansässig ist. Solche Übertragungen erfolgen in Übereinstimmung mit den DSGVO-Anforderungen, einschließlich der Verwendung von Standardvertragsklauseln (SCCs), soweit anwendbar."
-    },
-    "retention": {
-      "title": "6. Datenspeicherung",
-      "description": "Wir speichern personenbezogene Daten nur so lange, wie es für die beschriebenen Zwecke erforderlich ist, typischerweise: (a) Kunden- und Kandidatendaten für die Dauer unserer Geschäftsbeziehung plus 6 Jahre zur rechtlichen Compliance; (b) Website-Nutzungsdaten bis zu 26 Monate; (c) Kommunikationsaufzeichnungen für 3 Jahre nach dem letzten Kontakt. Sie können eine frühere Löschung beantragen, vorbehaltlich gesetzlicher Aufbewahrungspflichten."
-    },
-    "rights": {
-      "title": "7. Ihre Datenschutzrechte",
-      "description": "Je nach Ihrer Rechtsordnung haben Sie folgende Rechte: Auskunftsrecht (um eine Kopie Ihrer Daten zu erhalten), Recht auf Berichtigung (zur Korrektur ungenauer Daten), Recht auf Löschung ('Recht auf Vergessenwerden'), Recht auf Einschränkung der Verarbeitung, Recht auf Datenübertragbarkeit, Widerspruchsrecht gegen die Verarbeitung, Recht auf Widerruf der Einwilligung jederzeit, Recht auf Beschwerde bei einer Aufsichtsbehörde. Einwohner Kaliforniens haben zusätzliche Rechte nach dem CCPA, einschließlich des Rechts zu erfahren, welche personenbezogenen Daten erhoben werden, und des Rechts, dem Verkauf personenbezogener Daten zu widersprechen (wir verkaufen keine personenbezogenen Daten)."
-    },
-    "security": {
-      "title": "8. Datensicherheit",
-      "description": "Wir setzen angemessene technische und organisatorische Maßnahmen um, um Ihre personenbezogenen Daten vor unbefugtem Zugriff, Änderung, Offenlegung oder Zerstörung zu schützen. Dazu gehören Verschlüsselung, Zugriffskontrollen und regelmäßige Sicherheitsüberprüfungen."
-    },
-    "cookies": {
-      "title": "9. Cookies & Tracking",
-      "description": "Diese Website verwendet nur essenzielle Cookies, die für die Funktionalität der Website notwendig sind. Wir verwenden keine Werbe-Cookies oder Tracking-Dienste von Drittanbietern. Alle verwendeten Analysetools sind so konfiguriert, dass IP-Adressen anonymisiert werden."
-    },
-    "changes": {
-      "title": "10. Änderungen dieser Richtlinie",
-      "description": "Wir können diese Datenschutzerklärung regelmäßig aktualisieren. Wesentliche Änderungen werden über unsere Website kommuniziert. Die weitere Nutzung unserer Dienste nach Änderungen gilt als Zustimmung."
-    },
-    "contact": {
-      "title": "11. Kontakt & Datenschutzanfragen",
-      "description": "Für datenschutzbezogene Anfragen, Betroffenenrechte oder Beschwerden kontaktieren Sie uns bitte unter"
-    }
-  },
-  "terms": {
-    "title": "Allgemeine Geschäftsbedingungen",
-    "lastUpdated": "Zuletzt aktualisiert: Januar 2026",
-    "intro": "Diese Allgemeinen Geschäftsbedingungen (\"AGB\") regeln Ihre Nutzung der Skytz Consulting Website und aller von Laurasia LLC d/b/a Skytz Consulting erbrachten Dienstleistungen. Durch den Zugriff auf diese Website oder die Inanspruchnahme unserer Dienstleistungen erklären Sie sich mit diesen AGB einverstanden.",
-    "scope": {
-      "title": "1. Leistungsumfang",
-      "description": "Skytz Consulting bietet Executive Recruitment und Talentberatungsdienstleistungen an. Diese Website bietet allgemeine Informationen über unsere Dienstleistungen und stellt kein verbindliches Angebot oder keinen Vertrag dar. Alle Rekrutierungsaufträge unterliegen separaten schriftlichen Vereinbarungen."
-    },
-    "noGuarantee": {
-      "title": "2. Keine Ergebnisgarantie",
-      "description": "Rekrutierungsergebnisse hängen von Marktbedingungen, Kandidatenverfügbarkeit, Kundenentscheidungen und Faktoren ab, die außerhalb unserer Kontrolle liegen. Obwohl wir uns zu professioneller Sorgfalt verpflichten, wird keine bestimmte Vermittlung, kein Zeitrahmen oder Ergebnis garantiert, es sei denn, dies ist ausdrücklich in einer schriftlichen Vereinbarung festgelegt. Vergangene Ergebnisse garantieren keine zukünftige Leistung."
-    },
-    "ip": {
-      "title": "3. Geistiges Eigentum",
-      "description": "Alle Inhalte auf dieser Website, einschließlich Text, Grafiken, Logos und Design, sind Eigentum der Laurasia LLC oder ihrer Lizenzgeber und durch Urheberrecht, Markenrecht und andere geistige Eigentumsrechte geschützt. Sie dürfen diese ohne vorherige schriftliche Zustimmung nicht vervielfältigen, verbreiten, ändern oder abgeleitete Werke erstellen."
-    },
-    "confidentiality": {
-      "title": "4. Vertraulichkeit",
-      "description": "Informationen, die uns bezüglich Positionen, Kandidaten oder Geschäftsabläufen mitgeteilt werden, werden vertraulich behandelt. Wir geben Kunden- oder Kandidateninformationen nicht ohne Einwilligung an Dritte weiter, außer wenn gesetzlich vorgeschrieben. Kandidaten werden Kunden erst nach Einholung der entsprechenden Einwilligung vorgestellt."
-    },
-    "liability": {
-      "title": "5. Haftungsbeschränkung",
-      "description": "Soweit gesetzlich zulässig, haftet Laurasia LLC nicht für indirekte, zufällige, besondere, Folge- oder Strafschäden, die entstehen aus: (a) der Nutzung dieser Website; (b) dem Vertrauen auf bereitgestellte Informationen; (c) erbrachten Rekrutierungsdienstleistungen. Unsere Gesamthaftung ist auf die für die spezifische Dienstleistung gezahlten Gebühren beschränkt, die den Anspruch begründet. Nichts in diesen AGB schließt die Haftung für Tod oder Körperverletzung durch Fahrlässigkeit, Betrug oder andere Haftung aus, die gesetzlich nicht ausgeschlossen werden kann."
-    },
-    "indemnification": {
-      "title": "6. Freistellung",
-      "description": "Sie erklären sich bereit, Laurasia LLC, ihre Geschäftsführer, Mitarbeiter und Vertreter von allen Ansprüchen, Schäden, Verlusten oder Kosten freizustellen, die entstehen aus: (a) Ihrer Verletzung dieser AGB; (b) Ihrer Verletzung von Rechten Dritter; (c) falschen Angaben Ihrerseits."
-    },
-    "externalLinks": {
-      "title": "7. Externe Links",
-      "description": "Diese Website kann Links zu Websites Dritter enthalten. Wir sind nicht verantwortlich für den Inhalt, die Richtigkeit oder die Datenschutzpraktiken externer Websites. Links stellen keine Empfehlung dar."
-    },
-    "compliance": {
-      "title": "8. Rechtliche Compliance",
-      "description": "Laurasia LLC arbeitet in Übereinstimmung mit anwendbarem US-Bundes- und Landesrecht sowie europäischen Vorschriften einschließlich der DSGVO bei der Betreuung von Kunden und Kandidaten im EWR, im Vereinigten Königreich und in der Schweiz. Wir verpflichten uns zu Antidiskriminierungs- und Chancengleichheitsgrundsätzen bei allen Rekrutierungsaktivitäten."
-    },
-    "governing": {
-      "title": "9. Anwendbares Recht & Gerichtsstand",
-      "description": "Diese AGB unterliegen dem Recht des Staates Wyoming, Vereinigte Staaten, ohne Berücksichtigung kollisionsrechtlicher Grundsätze. Streitigkeiten werden vor den Gerichten von Wyoming beigelegt. Für EU-ansässige Personen können zwingende Verbraucherschutzgesetze Ihres Wohnsitzlandes gelten, und Sie haben möglicherweise das Recht, Verfahren vor Ihren lokalen Gerichten einzuleiten."
-    },
-    "severability": {
-      "title": "10. Salvatorische Klausel",
-      "description": "Sollte eine Bestimmung dieser AGB für unwirksam befunden werden, bleiben die übrigen Bestimmungen in vollem Umfang wirksam."
-    },
-    "amendments": {
-      "title": "11. Änderungen",
-      "description": "Wir behalten uns das Recht vor, diese AGB jederzeit zu ändern. Änderungen werden mit der Veröffentlichung auf dieser Website wirksam. Die weitere Nutzung gilt als Zustimmung zu den geänderten AGB."
-    },
-    "contact": {
-      "title": "12. Kontakt",
-      "description": "Für rechtliche Anfragen oder Fragen zu diesen AGB kontaktieren Sie uns bitte unter"
-    }
+  "footer": {
+    "legal": "The Paradise Architect",
+    "copyright": "© 2026 The Paradise Architect. Alle Rechte vorbehalten."
   }
 }

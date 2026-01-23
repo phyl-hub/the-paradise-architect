@@ -4,14 +4,6 @@ import { Globe, ChevronDown } from 'lucide-react';
 import useLanguage from '../../hooks/useLanguage';
 
 // Flag components using CSS for better cross-browser support
-const FlagDE = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 3" className="w-5 h-4 rounded-sm shadow-sm">
-    <rect width="5" height="3" y="0" fill="#000"/>
-    <rect width="5" height="2" y="1" fill="#D00"/>
-    <rect width="5" height="1" y="2" fill="#FFCE00"/>
-  </svg>
-);
-
 const FlagUS = () => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7410 3900" className="w-5 h-4 rounded-sm shadow-sm">
     <rect width="7410" height="3900" fill="#b22234"/>
@@ -27,18 +19,27 @@ const FlagUS = () => (
   </svg>
 );
 
-const FlagCH = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" className="w-5 h-4 rounded-sm shadow-sm">
-    <rect width="32" height="32" fill="#D52B1E"/>
-    <rect x="13" y="6" width="6" height="20" fill="#fff"/>
-    <rect x="6" y="13" width="20" height="6" fill="#fff"/>
+const FlagMX = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" className="w-5 h-4 rounded-sm shadow-sm">
+    <rect width="900" height="600" fill="#fff"/>
+    <rect width="300" height="600" fill="#006847"/>
+    <rect x="600" width="300" height="600" fill="#ce1126"/>
+    <circle cx="450" cy="300" r="100" fill="#8B4513" />
+  </svg>
+);
+
+const FlagDE = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 3" className="w-5 h-4 rounded-sm shadow-sm">
+    <rect width="5" height="3" y="0" fill="#000"/>
+    <rect width="5" height="2" y="1" fill="#D00"/>
+    <rect width="5" height="1" y="2" fill="#FFCE00"/>
   </svg>
 );
 
 const languages = [
+  { code: 'en', label: 'English', Flag: FlagUS, region: 'United States / International' },
+  { code: 'es', label: 'Español', Flag: FlagMX, region: 'México' },
   { code: 'de', label: 'Deutsch', Flag: FlagDE, region: 'Deutschland' },
-  { code: 'en', label: 'English', Flag: FlagUS, region: 'United States' },
-  { code: 'fr', label: 'Français', Flag: FlagCH, region: 'Suisse' },
 ];
 
 export default function LanguageSwitcher({ variant = 'default' }) {
@@ -48,7 +49,7 @@ export default function LanguageSwitcher({ variant = 'default' }) {
   const currentLanguage = languages.find(l => l.code === currentLang) || languages[0];
 
   const variantStyles = {
-    default: 'bg-white border-slate-200 text-slate-700 hover:border-slate-300',
+    default: 'bg-white border-slate-200 text-slate-700 hover:border-cyan-300',
     dark: 'bg-slate-900 border-slate-700 text-white hover:border-slate-600',
     minimal: 'bg-transparent border-transparent text-slate-600 hover:text-slate-900',
   };
@@ -97,16 +98,19 @@ export default function LanguageSwitcher({ variant = 'default' }) {
                     w-full px-4 py-3 text-left flex items-center gap-3
                     transition-colors duration-150
                     ${lang.code === currentLang
-                      ? 'bg-blueprint-50 text-blueprint-700'
-                      : 'text-slate-700 hover:bg-slate-50'
+                      ? 'bg-cyan-50 text-cyan-700'
+                      : 'hover:bg-slate-50 text-slate-700'
                     }
                   `}
                 >
                   <lang.Flag />
                   <div>
                     <div className="font-medium text-sm">{lang.label}</div>
-                    <div className="text-xs text-slate-500">{lang.region}</div>
+                    <div className="text-xs text-slate-400">{lang.region}</div>
                   </div>
+                  {lang.code === currentLang && (
+                    <div className="ml-auto w-2 h-2 rounded-full bg-cyan-500" />
+                  )}
                 </button>
               ))}
             </motion.div>
