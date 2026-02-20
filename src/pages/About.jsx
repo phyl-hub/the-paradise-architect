@@ -11,7 +11,6 @@ import {
   Users,
   MapPin,
   ArrowRight,
-  Palmtree,
   AlertTriangle,
   CheckCircle2,
   DollarSign,
@@ -87,14 +86,11 @@ export default function About() {
                 className="relative"
               >
                 <div className="aspect-[4/5] rounded-3xl bg-gradient-to-br from-cyan-100 to-teal-50 border border-cyan-200 overflow-hidden shadow-2xl">
-                  <div className="w-full h-full flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-32 h-32 mx-auto mb-6 bg-gradient-to-br from-cyan-400 to-teal-500 rounded-full flex items-center justify-center">
-                        <Palmtree className="w-16 h-16 text-white" />
-                      </div>
-                      <p className="text-slate-400 text-sm">Marisol's photo coming soon</p>
-                    </div>
-                  </div>
+                  <img
+                    src="/brand/Philipp-Hoffschroer.jpg"
+                    alt={t('about.title')}
+                    className="w-full h-full object-cover object-top"
+                  />
                 </div>
               </motion.div>
             </div>

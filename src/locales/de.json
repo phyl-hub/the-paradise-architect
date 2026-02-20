@@ -1,12 +1,15 @@
 {
   "meta": {
-    "title": "The Paradise Architect | Immobilienberatung & Architekt Mexik",
+    "title": "The Paradise Architect | Immobilienberatung & Architekt Mexiko",
     "description": "Kaufen Sie nicht blind. Wir kombinieren architektonische Prüfung mit professioneller Kaufberatung an der Riviera Maya. Der sichere Weg zur Immobilie in Playa del Carmen, Tulum & Cancún."
   },
   "nav": {
     "home": "Startseite",
+    "howWeWork": "So Arbeiten Wir",
     "services": "Arbeitsweise",
+    "dueDiligence": "Immobilien-Check",
     "about": "Über Uns",
+    "team": "Unser Team",
     "contact": "Kontakt",
     "foreignBuyers": "Sicher Kaufen",
     "privacy": "Datenschutz",
@@ -14,52 +17,53 @@
   },
   "hero": {
     "tagline": "Architektur & Immobilienberatung · Riviera Maya",
-    "headline": "Wir finden nicht nur das Paradies.\nWir sichern es ab.",
-    "subhead": "Die meisten Makler zeigen Ihnen nur die Aussicht. Wir prüfen das Fundament, die Baugenehmigungen und die Substanz. Eine Boutique-Beratung für Käufer, die nicht blind vertrauen wollen.",
+    "headline": "Wir finden nicht nur das Paradies.\nWir prüfen, was andere übersehen.",
+    "subhead": "Die meisten Makler zeigen Ihnen nur die Aussicht. Wir prüfen das Fundament, die Baugenehmigungen und die Substanz. Wir filtern das Risiko, damit Sie das Reiseziel einfach genießen können.",
     "cta": {
       "primary": "Kostenloses Erstgespräch",
-      "secondary": "Unser Standard"
+      "secondary": "Immobilien-Check ansehen"
     },
     "signature": "Marisol & Philipp · The Paradise Architect"
   },
   "team": {
-    "title": "Ihre Anwälte im Paradies",
-    "subtitle": "Die Kraft doppelter Expertise",
-    "description": "Sie brauchen mehr als einen Verkäufer. Sie brauchen einen Interessenvertreter. Wir kombinieren Marisols technischen Architekten-Blick mit Philipps deutscher Prozess-Präzision. Wir sind Ihr Filter gegen schlechte Investments.",
+    "title": "Ihre Experten im Paradies",
+    "subtitle": "Doppelte Expertise",
+    "description": "Architekten-Blick trifft europäischen Prozess. Ihr Filter gegen schlechte Investments.",
     "marisol": {
-      "name": "Marisol Rosales Trujillo",
+      "name": "Marisol Rosales",
       "role": "Leitende Architektin & Maklerin",
-      "focus": "Technische Due Diligence · Lokale Verhandlung",
-      "description": "Lizenzierte Architektin & Immobilienberaterin. Marisol sieht, was andere übersehen: Risse in der Struktur, Entwässerungsprobleme und fehlende Genehmigungen. Sie kämpft auf Spanisch für Ihr Recht."
+      "focus": "Technische Due Diligence · Verhandlung",
+      "description": "Lizenzierte Architektin & Immobilienberaterin. Marisol erkennt, was andere übersehen: Risse, Installationen, Systeme und Genehmigungen. Sie kämpft für Ihr Recht."
     },
     "philipp": {
       "name": "Philipp Hoffschröer",
-      "role": "Strategie & Prozesse",
-      "focus": "Internationaler Ablauf · Englisch & Deutsch",
-      "description": "Ihr strategischer Partner. Philipp sorgt dafür, dass Ihr Kaufprozess nach europäischen Standards für Klarheit und Kommunikation abläuft. Er übersetzt 'Mexiko' in einen Prozess, den Sie verstehen."
+      "role": "Europäischer Käuferberater",
+      "focus": "Kaufprozess · DE & EN",
+      "description": "Ihr Prozesspartner. Philipp führt Ihren Kauf nach europäischen Klarheitsstandards. Er übersetzt Mexiko in einen Prozess, den Sie verstehen."
     }
   },
   "valueProps": {
-    "title": "Der Architekten-Unterschied",
-    "subtitle": "Warum kluge Käufer uns wählen",
+    "title": "Was uns Unterscheidet",
+    "subtitle": "Warum Kunden uns wählen",
     "items": {
       "technical": {
-        "title": "Technisches Audit",
-        "description": "Wir verkaufen keine 'schönen Bilder'. Wir prüfen Bauqualität, MEP-Systeme und strukturelle Integrität, bevor Sie unterschreiben."
+        "title": "Technische und architektonische Beratung",
+        "description": "Wir prüfen Bauqualität, Systeme, Installationen und Ausführungsdetails, bevor Sie unterschreiben."
       },
       "permits": {
-        "title": "Recht & Genehmigungen",
-        "description": "Wir verifizieren, ob die Papiere des Entwicklers wirklich in Ordnung sind. Keine 'Pre-Sale'-Versprechungen—nur Fakten."
+        "title": "Genehmigungsprüfung",
+        "description": "Wir verifizieren, ob die Papiere des Entwicklers in Ordnung sind. Nur Fakten."
       },
       "foreigners": {
         "title": "Muttersprachliche Klarheit",
-        "description": "Wir erklären komplexe mexikanische Prozesse in klarem Deutsch oder Englisch. Keine 'Lost in Translation'-Momente."
+        "description": "Komplexe mexikanische Prozesse klar erklärt, auf Deutsch oder Englisch."
       },
       "local": {
-        "title": "Insider-Zugang",
-        "description": "Mit Sitz in Playa del Carmen wissen wir, welche Entwickler Qualität liefern und welche an der falschen Stelle sparen."
+        "title": "Lokale Experten",
+        "description": "Mit Sitz in Playa del Carmen. Wir wissen, wer liefert und wer Abstriche macht."
       }
-    }
+    },
+    "description": "Klare Struktur. Professionelle Standards. Kein Raten."
   },
   "services": {
     "title": "Umfassende Beratung",
@@ -67,9 +71,9 @@
     "description": "Wir sind keine Massenabfertigung. Wir sind maßgeschneiderte Berater für eine ausgewählte Gruppe von Klienten."
   },
   "foreignBuyers": {
-    "title": "Kaufen als Ausländer",
-    "subtitle": "Sicher, Legal, Seriös",
-    "description": "Mexiko ist ein sicherer Investitionsstandort—wenn man die Regeln befolgt. Wir führen Sie ohne Unklarheiten durch Fideicomiso, Steuern und Abschluss.",
+    "title": "Als Ausländer kaufen",
+    "subtitle": "Sicher, Legal, Transparent",
+    "description": "Mexiko ist sicher für Investitionen, wenn man die Regeln befolgt. Wir führen Sie durch Fideicomiso, Steuern und Abschluss.",
     "items": {
       "fideicomiso": {
         "title": "Der Bank-Trust (Fideicomiso)",
@@ -125,49 +129,114 @@
     "origin": {
       "subtitle": "Die Wahrheit",
       "title": "Warum es diesen Service gibt",
-      "content": "Dieses Unternehmen wurde nicht gegründet, um Häuser zu verkaufen. Es wurde gegründet, weil der Hauskauf hier ein Albtraum war. Als Philipp nach Mexiko zog, wollten er und Marisol Wohneigentum kaufen. Selbst als Architektin war Marisol schockiert über den Mangel an Professionalität: Makler, die nicht antworteten. 'Luxus'-Wohnungen mit schlechter Verkabelung. Versteckte rechtliche Probleme. Sie hätten fast Geld bei einem schlechten Deal verloren.",
-      "conclusion": "Wir entschieden: 'Genug.' Wir bauten The Paradise Architect als den Service, den wir uns gewünscht hätten. Ein Service, wo eine Architektin Ihr Vermögen schützt und ein Europäer den Prozess steuert. Kein Gerede. Nur Kompetenz."
+      "content": "Wir haben das nicht gestartet, um Häuser zu verkaufen. Sondern weil der Kauf hier ein Albtraum war. Makler, die nicht antworteten. „Luxus“-Wohnungen mit schlechter Verkabelung. Versteckte Rechtsprobleme. Wir hätten fast selbst Geld verloren.",
+      "conclusion": "Also bauten wir den Service, den wir uns gewünscht hätten. Eine Architektin schützt Ihr Vermögen, ein Europäer steuert den Prozess. Kein Gerede, nur Kompetenz."
     }
   },
   "premium": {
-    "title": "Das Premium Modell",
-    "subtitle": "Seriöse Beratung für seriöse Käufer",
-    "description": "Die meisten Makler sind Ihnen gegenüber nicht loyal, bis sie etwas verkauft haben. Wir arbeiten anders. Wir vertreten SIE, nicht den Verkäufer.",
+    "title": "So Arbeiten Wir",
+    "subtitle": "Ihr Kaufprozess",
+    "description": "Wir vertreten SIE, nicht den Verkäufer. Jeder Schritt schützt Ihre Investition und gibt Ihnen volle Transparenz. Hier ist genau, was passiert, wenn Sie mit uns arbeiten.",
     "commitment": {
       "items": [
-        "Unvoreingenommener Markt-Scan (Wir suchen den GESAMTEN Markt)",
-        "Architektonischer Qualitätsbericht für engere Auswahl",
-        "Video-dokumentierte Inspektionen (falls Sie remote sind)",
-        "Aggressive Preisverhandlung mit technischen Argumenten",
-        "Volle Abschlusskoordination (Recht & Notar)"
+        "Wir durchsuchen den gesamten Markt für Sie, nicht nur unsere eigenen Angebote",
+        "Jede Immobilie in der engeren Auswahl wird architektonisch geprüft",
+        "Fernkäufer erhalten videodokumentierte Inspektionen",
+        "Wir begleiten Sie persönlich bei jeder Besichtigung",
+        "Wir koordinieren den kompletten Abschluss: Recht, Notar und Bank-Trust"
       ]
     },
+    "process": {
+      "title": "Ihr Weg Mit Uns",
+      "steps": [
+        {
+          "label": "Schritt 1",
+          "title": "Kostenloses Gespräch Buchen",
+          "description": "Erzählen Sie uns, was Sie suchen. Wir erklären Ihnen den Markt ehrlich, beantworten alle Fragen und prüfen, ob wir das richtige Team für Sie sind. Null Kosten, null Druck, null Verpflichtung."
+        },
+        {
+          "label": "Schritt 2",
+          "title": "Wir Legen Los",
+          "amount": "2.500 USD",
+          "description": "Eine einmalige Mandantenvertretungsgebühr, die uns voll und ganz auf Ihre Seite stellt, nicht auf die des Verkäufers. Das ist enthalten:",
+          "bullets": [
+            "Vollständiger Markt-Scan, nicht nur unsere eigenen Angebote",
+            "Architektonisches Qualitätsgutachten für jede engere Auswahl",
+            "Videodokumentierte Inspektionen für Fernkäufer",
+            "Persönliche Begleitung bei jeder Besichtigung",
+            "Fideicomiso (Bank-Trust) Koordination, Ihr legaler Weg zu sicherem Eigentum in Mexiko",
+            "Komplette Abschlusskoordination mit Notar und Rechtsanwalt"
+          ]
+        },
+        {
+          "label": "Schritt 3",
+          "title": "Abschlussbegleitung",
+          "description": "Die richtige Immobilie gefunden? Wir begleiten Sie durch jeden Schritt des Abschlussprozesses, damit Sie die mexikanische Bürokratie nicht allein navigieren müssen. Das erwartet Sie:",
+          "bullets": [
+            "Sie unterzeichnen einen Kaufvertrag und leisten eine Anzahlung (typisch 10-30%)",
+            "Ein staatlich bestellter Notar prüft den Titel, kontrolliert Belastungen und erstellt Ihre Urkunde",
+            "Für Küstenimmobilien koordinieren wir die Einrichtung Ihres Fideicomiso, einen verlängerbaren 50-Jahres-Bank-Trust mit vollen Eigentumsrechten",
+            "Abschlusskosten betragen typisch 4-7% (Erwerbsteuer, Notargebühren, Trust-Einrichtung, Registrierung)",
+            "Der gesamte Abschlussprozess dauert ein bis vier Monate. Wir koordinieren alle Parteien, verfolgen jeden Termin und halten Sie durchgehend informiert"
+          ]
+        },
+        {
+          "label": "Schritt 4",
+          "title": "Sie Bekommen den Schlüssel",
+          "description": "Ziehen Sie in eine Immobilie ein, die vom Fundament bis zum Dach geprüft wurde. Wir begleiten Sie durch jede Phase. Das rechtliche Ergebnis liegt beim Notar und den Behörden, aber Sie stehen nie allein da."
+        }
+      ],
+      "fideicomisoNote": "Was ist ein Fideicomiso? Das mexikanische Gesetz verlangt von Ausländern, die in Küstennähe kaufen, einen Bank-Trust zu nutzen. Eine mexikanische Bank hält den Titel in Ihrem Namen, aber Sie behalten alle Rechte: wohnen, vermieten, renovieren, verkaufen oder vererben. Er wird alle 50 Jahre verlängert und kostet etwa 500 bis 1.000 USD pro Jahr. Tausende internationale Käufer besitzen auf genau diesem Weg sicher Immobilien in Mexiko. Wir übernehmen die komplette Einrichtung für Sie.",
+      "note": "Unser Service richtet sich an Immobilien ab 250.000 USD."
+    },
     "promise": {
-      "title": "Unser Versprechen",
-      "content": "Wenn wir keine Immobilie finden, die unseren architektonischen Standards entspricht, raten wir Ihnen vom Kauf ab. Wir schützen Ihr Kapital zuerst."
-    },
-    "fee": {
-      "title": "Aufnahmegebühr",
-      "amount": "$2.000 USD",
-      "description": "Wir berechnen eine verrechenbare Aufnahmegebühr. Dies filtert 'Schaufensterbummler' aus und erlaubt uns, hart für Sie zu arbeiten, bevor Sie überhaupt ein Angebot machen.",
-      "note": "Wird beim Abschluss zu 100% auf den Kaufpreis angerechnet."
-    },
-    "minimum": {
-      "title": "Klienten-Profil",
-      "amount": "Ab $250k USD",
-      "description": "Wir spezialisieren uns auf Immobilien im mittleren bis gehobenen Segment, wo Bauqualität entscheidend ist."
+      "title": "Unser Versprechen an Sie",
+      "content": "Wir verzichten lieber auf eine Provision, als Sie in eine schlechte Investition zu führen. Weil wir vorab eine Mandantenvertretungsgebühr berechnen, hängen wir nicht vom Abschluss ab. Wir hängen von Ihrem Vertrauen ab. Und genau das ist Ihr Schutz."
     }
   },
   "contact": {
+    "cta": "Kontakt / Kostenloses Erstgespräch",
+    "badge": "Kostenlos · Unverbindlich",
+    "heroTitle": "Kaufen Sie nicht blind.",
+    "heroSubhead": "Die meisten Käufer überspringen die Due-Diligence-Prüfung — und bezahlen dafür. Ein 30-minütiges Gespräch mit uns kostet nichts und könnte Ihre gesamte Investition schützen.",
     "title": "Starten Sie Ihre Suche",
-    "noCommitment": "Lassen Sie uns einfach sprechen. Kein Druck.",
+    "noCommitment": "Kein Druck. Keine Verpflichtung.",
     "booking": {
-      "label": "Video-Call Buchen",
-      "action": "Marisol & Philipp treffen"
+      "badge": "Empfohlen",
+      "label": "Kostenloses Erstgespräch Buchen",
+      "description": "Erzählen Sie uns, was Sie suchen. Wir führen Sie durch den aktuellen Markt, geben ehrliche Einschätzungen und klären, ob wir zueinander passen. Kein Skript, kein Verkaufsdruck.",
+      "action": "Marisol & Philipp treffen · 30 Min",
+      "cta": "Gespräch Buchen"
+    },
+    "whatsapp": {
+      "label": "WhatsApp",
+      "description": "Direkte Antwort von Marisol oder Philipp — kein Assistent, kein Bot."
     },
     "email": "E-Mail Senden",
     "getInTouch": {
-      "description": "Direktes WhatsApp mit den Gründern"
+      "description": "Direktleitung zu den Gründern"
+    },
+    "whatToExpect": {
+      "title": "Was Sie im Gespräch erwartet",
+      "subtitle": "30 Minuten. Ehrlich. Kein Druck.",
+      "items": {
+        "listen": {
+          "title": "Wir hören zuerst zu",
+          "description": "Erzählen Sie uns von Budget, Zeitplan und Ihrer Traumimmobilie. Kein Skript, kein Verkaufspitch."
+        },
+        "honest": {
+          "title": "Wir geben Ihnen das echte Bild",
+          "description": "Ehrliche Markt-Infos. Welche Regionen überteuert sind. Welchen Entwicklern Sie mit Vorsicht begegnen sollten."
+        },
+        "questions": {
+          "title": "Jede Frage beantwortet",
+          "description": "Fideicomiso, Grunderwerbsteuer, Abschlusskosten — nichts ist tabu."
+        },
+        "noObligation": {
+          "title": "Keine Verpflichtung",
+          "description": "Wenn wir nicht die richtige Wahl sind, sagen wir es Ihnen. Wir verlieren lieber den Auftrag, als Sie falsch zu beraten."
+        }
+      }
     },
     "location": {
       "title": "Büro",
@@ -175,14 +244,31 @@
     },
     "hours": {
       "title": "Zeiten",
-      "weekdays": "Mo-Fr (Verfügbar für EU & US Zeitzonen)",
-      "timezone": "Wir richten uns nach Ihnen."
+      "weekdays": "Mo–Fr · US-amerikanische Zeitzonen",
+      "timezone": "Anderen Termin? Schreiben Sie uns einfach."
     },
     "ready": "Bereit, sicher zu kaufen?",
     "description": "Spielen Sie nicht mit Ihrer Investition. Nutzen Sie den Architekten-Vorteil."
   },
+  "audit": {
+    "badge": "Technische Due Diligence",
+    "title": "Unser Immobilien-Prüfstandard",
+    "subtitle": "Die meisten Makler zeigen Ihnen die Aussicht. Wir prüfen die Substanz. Laden Sie unseren 50-Punkte Architektur-Check herunter.",
+    "icons": {
+      "structural": "Struktur",
+      "electrical": "Installationen",
+      "legal": "Rechtliches"
+    },
+    "cardSubtitle": "50-Punkte Architektur-Sicherheitscheck · PDF",
+    "warningNote": "30% der Neubauprojekte an der Riviera Maya bestehen unsere Struktur- oder Feuchtigkeitsprüfung nicht. Dieser Leitfaden ist Ihre erste Verteidigungslinie gegen mangelhafte Bauqualität.",
+    "warningLabel": "Hinweis:"
+  },
   "footer": {
     "legal": "The Paradise Architect",
-    "copyright": "© 2026 The Paradise Architect. Alle Rechte vorbehalten."
+    "copyright": "© {{year}} The Paradise Architect. Alle Rechte vorbehalten.",
+    "links": {
+      "privacy": "Datenschutzrichtlinie",
+      "terms": "AGB"
+    }
   }
 }

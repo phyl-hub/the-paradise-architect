@@ -5,59 +5,63 @@
   },
   "nav": {
     "home": "Inicio",
+    "howWeWork": "Cómo Trabajamos",
     "services": "Nuestro Método",
+    "dueDiligence": "Auditoría Técnica",
     "about": "Quiénes Somos",
+    "team": "Nuestro Equipo",
     "contact": "Contacto",
-    "foreignBuyers": "Guía Segura",
+    "foreignBuyers": "Guía del Comprador",
     "privacy": "Privacidad",
     "terms": "Términos"
   },
   "hero": {
     "tagline": "Asesoría Inmobiliaria Arquitectónica · Riviera Maya",
-    "headline": "No solo encontramos el Paraíso.\nDiseñamos tu Seguridad.",
-    "subhead": "La mayoría te vende la vista. Nosotros revisamos los cimientos, los permisos y la reputación del desarrollador. Una asesoría boutique para quienes exigen certeza.",
+    "headline": "No solo encontramos el Paraíso.\nValidamos lo que otros ignoran.",
+    "subhead": "La mayoría te vende la vista. Nosotros revisamos los cimientos, los permisos y la reputación del desarrollador. Filtramos el riesgo para que tú solo disfrutes el destino.",
     "cta": {
       "primary": "Agenda Consulta Gratis",
-      "secondary": "Ver Estándares"
+      "secondary": "Ver la Auditoría Técnica"
     },
     "signature": "Marisol y Philipp · The Paradise Architect"
   },
   "team": {
     "title": "Tus Aliados en el Paraíso",
-    "subtitle": "El Poder de la Doble Perspectiva",
-    "description": "Necesitas más que un vendedor. Necesitas un defensor. Combinamos el ojo técnico de Marisol con la precisión de procesos de Philipp. Somos tu filtro contra malas inversiones.",
+    "subtitle": "Doble Expertise",
+    "description": "Ojo de arquitecta + proceso europeo. Tu filtro contra malas inversiones.",
     "marisol": {
-      "name": "Marisol Rosales Trujillo",
+      "name": "Marisol Rosales",
       "role": "Arquitecta Líder y Broker",
       "focus": "Due Diligence Técnica · Negociación",
-      "description": "Arquitecta y Asesora Inmobiliaria Licenciada. Marisol ve lo que otros ignoran: grietas, drenaje y permisos. Ella defiende tus intereses con conocimiento técnico."
+      "description": "Arquitecta y Asesora Inmobiliaria. Marisol detecta lo que otros ignoran: grietas, instalaciones, sistemas y permisos. Defiende tus intereses."
     },
     "philipp": {
       "name": "Philipp Hoffschröer",
-      "role": "Director de Estrategia",
-      "focus": "Procesos Internacionales",
-      "description": "Tu socio estratégico. Philipp asegura que tu proceso de compra siga estándares internacionales de claridad y comunicación. Traduce 'México' a un proceso que tú entiendes."
+      "role": "Asesor Europeo de Compradores",
+      "focus": "Proceso de Compra · EN & DE",
+      "description": "Tu socio de proceso. Philipp lleva tu compra con estándares europeos de claridad. Traduce México a un proceso que tú entiendes."
     }
   },
   "valueProps": {
-    "title": "La Diferencia del Arquitecto",
-    "subtitle": "Por qué los Compradores Inteligentes nos Eligen",
+    "title": "Por Qué Somos Distintos",
+    "subtitle": "Por qué nos Eligen",
+    "description": "Estructura clara. Estándares profesionales. Sin improvisación.",
     "items": {
       "technical": {
-        "title": "Auditoría Técnica",
-        "description": "No vendemos 'fotos bonitas'. Inspeccionamos la calidad constructiva, sistemas y estructura antes de que firmes."
+        "title": "Asesoría Técnica y arquitectónica",
+        "description": "Inspeccionamos calidad constructiva, sistemas, instalaciones y acabados antes de que firmes."
       },
       "permits": {
         "title": "Verificación Legal",
-        "description": "Verificamos que los papeles del desarrollador estén realmente en orden. Sin promesas de 'pre-venta', solo hechos."
+        "description": "Verificamos que los papeles del desarrollador estén en orden. Solo hechos."
       },
       "foreigners": {
         "title": "Comunicación Nativa",
-        "description": "Explicamos procesos complejos con claridad total en Español, Inglés o Alemán."
+        "description": "Procesos complejos explicados con claridad en Español, Inglés o Alemán."
       },
       "local": {
-        "title": "Acceso Insider",
-        "description": "Basados en Playa del Carmen, sabemos qué desarrolladores cumplen y cuáles toman atajos."
+        "title": "Expertos Locales",
+        "description": "Basados en Playa del Carmen. Sabemos quién cumple y quién no."
       }
     }
   },
@@ -69,7 +73,7 @@
   "foreignBuyers": {
     "title": "Invertir en México",
     "subtitle": "Seguro, Legal y Rentable",
-    "description": "México es un lugar seguro para invertir si sigues las reglas. Te guiamos a través del Fideicomiso, impuestos y cierre sin ambigüedades.",
+    "description": "México es seguro para invertir, si sigues las reglas. Te guiamos por Fideicomiso, impuestos y cierre.",
     "items": {
       "fideicomiso": {
         "title": "El Fideicomiso",
@@ -125,49 +129,114 @@
     "origin": {
       "subtitle": "La Verdad",
       "title": "Por qué Creamos Esto",
-      "content": "Este negocio no nació para vender casas. Nació porque comprar una casa aquí fue una pesadilla. Cuando Philipp se mudó a México, intentaron comprar propiedad. Aún siendo arquitecta, Marisol se sorprendió por la falta de profesionalismo: Agentes que no respondían. Departamentos de 'lujo' con malas instalaciones. Problemas legales ocultos. Casi pierden dinero en un mal trato.",
-      "conclusion": "Decidimos: 'Suficiente.' Construimos The Paradise Architect para ser el servicio que deseábamos tener. Un servicio donde un Arquitecto protege tu activo y un Europeo gestiona el proceso. Sin relleno. Solo competencia."
+      "content": "No empezamos esto para vender casas. Empezamos porque comprar una aquí fue una pesadilla. Agentes fantasma. Departamentos de 'lujo' mal hechos. Problemas legales ocultos. Casi perdimos dinero.",
+      "conclusion": "Así que construimos el servicio que nos hubiera gustado tener. Una arquitecta protege tu activo, un europeo gestiona el proceso. Sin relleno, solo competencia."
     }
   },
   "premium": {
-    "title": "Modelo Premium",
-    "subtitle": "Asesoría Seria para Compradores Serios",
-    "description": "La mayoría de los agentes no tienen lealtad hasta que te venden algo. Nosotros trabajamos diferente. Te representamos a TI, no al vendedor.",
+    "title": "Cómo Trabajamos",
+    "subtitle": "Tu Proceso de Compra",
+    "description": "Te representamos a TI, no al vendedor. Cada paso está diseñado para proteger tu inversión y darte total claridad. Esto es exactamente lo que pasa cuando trabajas con nosotros.",
     "commitment": {
       "items": [
-        "Escaneo Imparcial del Mercado (Buscamos en TODO el mercado)",
-        "Reporte de Calidad Arquitectónica en propiedades finalistas",
-        "Inspecciones documentadas en video si compras a distancia",
-        "Negociación agresiva de precio usando hallazgos técnicos",
-        "Coordinación total de cierre (Legal y Notarial)"
+        "Escaneamos todo el mercado para ti, no solo nuestros propios listados",
+        "Cada propiedad finalista recibe un dictamen arquitectónico de calidad",
+        "Los compradores a distancia reciben inspecciones documentadas en video",
+        "Te acompañamos personalmente en cada visita",
+        "Coordinamos todo el cierre: legal, notarial y fideicomiso"
       ]
+    },
+    "process": {
+      "title": "Tu Camino Con Nosotros",
+      "steps": [
+        {
+          "label": "Paso 1",
+          "title": "Agenda una Llamada Gratis",
+          "description": "Cuéntanos qué buscas. Te explicamos el mercado con honestidad, resolvemos todas tus dudas y vemos si somos el equipo indicado para ti. Sin costo, sin presión, sin compromiso."
+        },
+        {
+          "label": "Paso 2",
+          "title": "Nos Ponemos a Trabajar",
+          "amount": "2,500 USD",
+          "description": "Una Tarifa de Representación única que nos pone completamente de tu lado, no del vendedor. Esto es lo que incluye:",
+          "bullets": [
+            "Escaneo completo del mercado, no solo nuestros propios listados",
+            "Dictamen arquitectónico de calidad para cada propiedad finalista",
+            "Inspecciones documentadas en video para compradores a distancia",
+            "Acompañamiento personal en cada visita",
+            "Coordinación del Fideicomiso, tu herramienta legal para la propiedad segura en México",
+            "Coordinación completa del cierre con Notaría y equipo legal"
+          ]
+        },
+        {
+          "label": "Paso 3",
+          "title": "Asistencia al Cierre",
+          "description": "¿Encontraste la indicada? Te guiamos en cada paso del proceso de cierre para que no tengas que navegar la burocracia mexicana solo. Esto es lo que puedes esperar:",
+          "bullets": [
+            "Firmas un contrato de compraventa y dejas un anticipo (normalmente 10-30%)",
+            "Un Notario Público verificado por el gobierno revisa el título, verifica gravámenes y redacta tu escritura",
+            "Para propiedades costeras, coordinamos la constitución de tu Fideicomiso, un trust bancario renovable a 50 años con plenos derechos de propiedad",
+            "Los costos de cierre típicamente son 4-7% (impuesto de adquisición, honorarios notariales, constitución del trust, registro)",
+            "El proceso completo toma de uno a cuatro meses. Coordinamos con todas las partes, seguimos cada plazo y te mantenemos informado en todo momento"
+          ]
+        },
+        {
+          "label": "Paso 4",
+          "title": "Recibes las Llaves",
+          "description": "Múdate a una propiedad inspeccionada de los cimientos al techo. Te acompañamos en cada fase. El resultado legal depende del Notario y las autoridades, pero nunca estarás solo en el proceso."
+        }
+      ],
+      "fideicomisoNote": "¿Qué es un Fideicomiso? La ley mexicana exige que los extranjeros que compren cerca de la costa utilicen un fideicomiso bancario. Un banco mexicano mantiene el título a tu nombre, pero tú conservas todos los derechos: habitar, rentar, renovar, vender o heredar. Se renueva cada 50 años y cuesta aproximadamente de $500 a $1,000 USD anuales. Miles de compradores internacionales poseen propiedades de manera segura en México con esta misma estructura. Nosotros nos encargamos de todo el trámite.",
+      "note": "Nuestro servicio se enfoca en propiedades a partir de 250,000 USD."
     },
     "promise": {
       "title": "Nuestra Promesa",
-      "content": "Si no encontramos una propiedad que pase nuestros estándares arquitectónicos, te aconsejaremos NO comprar. Protegemos tu capital primero."
-    },
-    "fee": {
-      "title": "Fee de Compromiso",
-      "amount": "$2,000 USD",
-      "description": "Cobramos un fee inicial deducible. Esto filtra a los curiosos y nos permite trabajar intensamente en tu nombre antes de que hagas una oferta.",
-      "note": "100% Acreditado a tu compra al cierre."
-    },
-    "minimum": {
-      "title": "Perfil de Cliente",
-      "amount": "$250k+ USD",
-      "description": "Nos especializamos en propiedades donde la calidad arquitectónica es primordial."
+      "content": "Preferimos perder una comisión antes de dejarte hacer una mala inversión. Como cobramos una Tarifa de Representación por adelantado, no dependemos de cerrar una venta. Dependemos de ganarnos tu confianza. Y esa es tu verdadera protección."
     }
   },
   "contact": {
+    "cta": "Contacto / Consulta Gratuita",
+    "badge": "Consulta Gratis · Sin Compromiso",
+    "heroTitle": "No Compres a Ciegas.",
+    "heroSubhead": "La mayoría de compradores omite la due diligence y lo paga caro. Una llamada de 30 minutos con nosotros no cuesta nada — y puede proteger toda tu inversión.",
     "title": "Inicia tu Búsqueda",
-    "noCommitment": "Hablemos. Sin presiones.",
+    "noCommitment": "Sin presiones. Sin compromiso.",
     "booking": {
-      "label": "Agenda Videollamada",
-      "action": "Conoce a Marisol y Philipp"
+      "badge": "Recomendado",
+      "label": "Agenda tu Consulta Gratuita",
+      "description": "Cuéntanos qué buscas. Te explicamos el mercado actual, compartimos información honesta y evaluamos si somos la opción adecuada para ti. Sin guion, sin ventas forzadas.",
+      "action": "Conoce a Marisol y Philipp · 30 min",
+      "cta": "Agendar Llamada Gratis"
+    },
+    "whatsapp": {
+      "label": "Escríbenos por WhatsApp",
+      "description": "Respuesta directa de Marisol o Philipp — sin asistente, sin bot."
     },
     "email": "Escríbenos",
     "getInTouch": {
-      "description": "WhatsApp Directo con los Fundadores"
+      "description": "Línea directa con los fundadores"
+    },
+    "whatToExpect": {
+      "title": "Qué Pasa en la Llamada",
+      "subtitle": "30 minutos. Honesto. Sin presión.",
+      "items": {
+        "listen": {
+          "title": "Primero escuchamos",
+          "description": "Cuéntanos tu presupuesto, plazos y la propiedad de tus sueños. Sin guion, sin ventas."
+        },
+        "honest": {
+          "title": "Te damos el panorama real",
+          "description": "Información honesta del mercado. Qué zonas están sobrevaloradas. Con qué desarrolladores ser cauteloso."
+        },
+        "questions": {
+          "title": "Cada pregunta respondida",
+          "description": "Fideicomiso, impuestos, costos de cierre — nada queda sin respuesta."
+        },
+        "noObligation": {
+          "title": "Sin obligación",
+          "description": "Si no somos la opción correcta, te lo decimos. Preferimos perder la venta que orientarte mal."
+        }
+      }
     },
     "location": {
       "title": "Oficina",
@@ -175,14 +244,31 @@
     },
     "hours": {
       "title": "Horario",
-      "weekdays": "Lun-Vie (Disponible para horarios EU y US)",
-      "timezone": "Nos adaptamos a tu agenda."
+      "weekdays": "Lun–Vie · Horario EE.UU.",
+      "timezone": "¿Otro horario? Escríbenos por correo."
     },
     "ready": "¿Listo para comprar seguro?",
     "description": "No apuestes con tu inversión. Ten la ventaja del arquitecto."
   },
+  "audit": {
+    "badge": "Due Diligence Técnica",
+    "title": "Nuestro Estándar de Inspección",
+    "subtitle": "La mayoría de los agentes te muestran la vista. Nosotros auditamos la estructura. Descarga nuestra Auditoría Técnica de 50 Puntos.",
+    "icons": {
+      "structural": "Estructura",
+      "electrical": "Instalaciones",
+      "legal": "Legal"
+    },
+    "cardSubtitle": "Auditoría Técnica de 50 Puntos · PDF",
+    "warningNote": "El 30% de los desarrollos nuevos en la Riviera Maya no pasan nuestra auditoría estructural o de humedad. Este documento es tu primera línea de defensa contra construcciones de baja calidad.",
+    "warningLabel": "Importante:"
+  },
   "footer": {
     "legal": "The Paradise Architect",
-    "copyright": "© 2026 The Paradise Architect. Todos los derechos reservados."
+    "copyright": "© {{year}} The Paradise Architect. Todos los derechos reservados.",
+    "links": {
+      "privacy": "Política de Privacidad",
+      "terms": "Términos y Condiciones"
+    }
   }
 }

@@ -63,11 +63,13 @@ export default function LanguageSwitcher({ variant = 'default' }) {
           transition-all duration-200
           ${variantStyles[variant]}
         `}
+        aria-label="Select language"
+        aria-expanded={isOpen}
       >
-        <Globe className="w-4 h-4" />
+        <Globe className="w-4 h-4" aria-hidden="true" />
         <currentLanguage.Flag />
         <span className="hidden sm:inline">{currentLanguage.code.toUpperCase()}</span>
-        <ChevronDown className={`w-4 h-4 transition-transform ${isOpen ? 'rotate-180' : ''}`} />
+        <ChevronDown className={`w-4 h-4 transition-transform ${isOpen ? 'rotate-180' : ''}`} aria-hidden="true" />
       </button>
 
       <AnimatePresence>

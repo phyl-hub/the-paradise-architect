@@ -98,16 +98,25 @@
   <!-- Privacy - All Languages -->
   <url>
     <loc>https://theparadisearchitect.com/en/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theparadisearchitect.com/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theparadisearchitect.com/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theparadisearchitect.com/de/privacy"/>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://theparadisearchitect.com/es/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theparadisearchitect.com/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theparadisearchitect.com/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theparadisearchitect.com/de/privacy"/>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://theparadisearchitect.com/de/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theparadisearchitect.com/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theparadisearchitect.com/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theparadisearchitect.com/de/privacy"/>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -115,16 +124,25 @@
   <!-- Terms - All Languages -->
   <url>
     <loc>https://theparadisearchitect.com/en/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theparadisearchitect.com/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theparadisearchitect.com/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theparadisearchitect.com/de/terms"/>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://theparadisearchitect.com/es/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theparadisearchitect.com/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theparadisearchitect.com/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theparadisearchitect.com/de/terms"/>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://theparadisearchitect.com/de/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theparadisearchitect.com/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://theparadisearchitect.com/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://theparadisearchitect.com/de/terms"/>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>

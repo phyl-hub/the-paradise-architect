@@ -5,6 +5,7 @@ import './i18n';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import Home from './pages/Home';
+import Contact from './pages/Contact';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 
@@ -36,10 +37,7 @@ export default function App() {
           <Route path="/:lang" element={<Layout><Home /></Layout>} />
           <Route path="/:lang/privacy" element={<Layout><Privacy /></Layout>} />
           <Route path="/:lang/terms" element={<Layout><Terms /></Layout>} />
-          
-          {/* Legacy routes - redirect to home */}
-          <Route path="/:lang/about" element={<Navigate to="/:lang" replace />} />
-          <Route path="/:lang/contact" element={<Navigate to="/:lang" replace />} />
+          <Route path="/:lang/contact" element={<Layout><Contact /></Layout>} />
           
           {/* Direct access routes (without language prefix) */}
           <Route path="/privacy" element={<Navigate to="/en/privacy" replace />} />

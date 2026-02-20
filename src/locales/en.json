@@ -1,63 +1,67 @@
-{
+﻿{
   "meta": {
     "title": "The Paradise Architect | Architectural Real Estate Advisory Mexico",
     "description": "Don't buy blindly. We combine licensed architectural due diligence with expert buying advisory in the Riviera Maya. The safe way to buy in Playa del Carmen, Tulum & Cancún."
   },
   "nav": {
     "home": "Home",
+    "howWeWork": "How We Work",
     "services": "How We Work",
-    "about": "Who We Are",
-    "contact": "Contact",
+    "dueDiligence": "Property Audit",
     "foreignBuyers": "Safe Buying Guide",
+    "about": "Who We Are",
+    "team": "Our Team",
+    "contact": "Contact",
     "privacy": "Privacy",
     "terms": "Terms"
   },
   "hero": {
     "tagline": "Architectural Real Estate Advisory · Riviera Maya",
-    "headline": "We Don't Just Find Paradise.\nWe Engineer Your Safety.",
-    "subhead": "Most agents just show you the view. We check the foundation, the permits, and the developer's track record. A boutique advisory for those who refuse to buy blindly.",
+    "headline": "We Don't Just Find Paradise.\nWe Vet What Others Miss.",
+    "subhead": "Most agents just show you the view. We check the foundation, the permits, and the developer track record. We filter out the risk so you can enjoy the destination.",
     "cta": {
       "primary": "Schedule Free Consultation",
-      "secondary": "See Our Standard"
+      "secondary": "See Our Property Audit"
     },
     "signature": "Marisol & Philipp · The Paradise Architect"
   },
   "team": {
     "title": "Your Advocates in Paradise",
-    "subtitle": "The Power of Dual Expertise",
-    "description": "You need more than a salesperson. You need an advocate. We combine Marisol's technical architectural eye with Philipp's German precision in process management. We are your filter against bad investments.",
+    "subtitle": "Dual Expertise",
+    "description": "Architect eye meets European process. Your filter against bad investments.",
     "marisol": {
-      "name": "Marisol Rosales Trujillo",
+      "name": "Marisol Rosales",
       "role": "Lead Architect & Broker",
-      "focus": "Technical Due Diligence · Local Negotiation",
-      "description": "Licensed Architect & Real Estate Advisor. Marisol sees what others miss: structural cracks, drainage issues, and permit irregularities. She fights for your interests in Spanish."
+      "focus": "Technical Due Diligence · Negotiation",
+      "description": "Licensed Architect & Real Estate Advisor. Marisol spots what others miss: cracks, installations, systems, and permits. She fights for your interests."
     },
     "philipp": {
       "name": "Philipp Hoffschröer",
-      "role": "Client Strategy Director",
-      "focus": "International Process · English & German",
-      "description": "Your strategic partner. Philipp ensures your buying process follows European standards of clarity and communication. He translates 'Mexico' into a process you understand."
+      "role": "European Buyer Advisor",
+      "focus": "Buying Process · EN & DE",
+      "description": "Your process partner. Philipp runs the buying journey to European standards of clarity. He translates Mexico into a process you understand."
     }
   },
   "valueProps": {
-    "title": "The Architect's Difference",
-    "subtitle": "Why Smart Buyers Choose Us",
+    "title": "What Makes Us Different",
+    "subtitle": "Why Clients Choose Us",
+    "description": "Clear structure. Professional standards. No guesswork.",
     "items": {
       "technical": {
-        "title": "Technical Audit",
-        "description": "We don't sell 'pretty'. We inspect construction quality, MEP systems, and structural integrity before you sign."
+        "title": "Technical & Architectural Advisory",
+        "description": "We inspect construction quality, systems, installations, and finishes before you sign."
       },
       "permits": {
-        "title": "Legal & Permit Verification",
-        "description": "We verify the developer's paperwork is actually in order. No 'pre-sale' promises—only facts."
+        "title": "Permit Verification",
+        "description": "We verify the developer's paperwork is actually in order. Only facts."
       },
       "foreigners": {
         "title": "Native Communication",
-        "description": "We explain complex Mexican processes in clear English or German. No 'lost in translation' moments."
+        "description": "Complex Mexican processes explained clearly in English or German."
       },
       "local": {
-        "title": "Insider Access",
-        "description": "Based in Playa del Carmen, we know which developers deliver quality and which ones cut corners."
+        "title": "Local Experts",
+        "description": "Based in Playa del Carmen. We know who delivers and who cuts corners."
       }
     }
   },
@@ -69,7 +73,7 @@
   "foreignBuyers": {
     "title": "Buying As A Foreigner",
     "subtitle": "Safe, Legal, Secure",
-    "description": "Mexico is a safe place to invest—if you follow the rules. We guide you through the Fideicomiso, taxes, and closing with zero ambiguity.",
+    "description": "Mexico is safe to invest in, if you follow the rules. We guide you through Fideicomiso, taxes, and closing.",
     "items": {
       "fideicomiso": {
         "title": "The Bank Trust (Fideicomiso)",
@@ -125,49 +129,114 @@
     "origin": {
       "subtitle": "The Truth",
       "title": "Why We Created This Service",
-      "content": "This business wasn't started to sell houses. It was started because buying a house here was a nightmare. When Philipp moved to Mexico, he and Marisol tried to buy property. Even as an architect, Marisol was shocked by the lack of professionalism in the market: Agents who ghosted them. 'Luxury' condos with poor wiring. Hidden legal issues. They almost lost money on a bad deal.",
-      "conclusion": "We decided: 'Enough.' We built The Paradise Architect to be the service we wished we had. A service where an Architect protects your asset, and a European manages the process. No fluff. Just competence."
+      "content": "We didn't start this to sell houses. We started it because buying one here was a nightmare. Agents who ghosted. 'Luxury' condos with bad wiring. Hidden legal problems. We almost lost money ourselves.",
+      "conclusion": "So we built the service we wished existed. An architect protects your asset, a European manages the process. No fluff, just competence."
     }
   },
   "premium": {
-    "title": "The Premium Model",
-    "subtitle": "Serious Advisory for Serious Buyers",
-    "description": "Most agents establish no loyalty until they sell you something. We work differently. We represent YOU, not the seller.",
+    "title": "How We Work",
+    "subtitle": "Your Buying Journey",
+    "description": "We represent YOU, not the seller. Every step is designed to protect your investment and give you total clarity. Here's exactly what happens when you work with us.",
     "commitment": {
       "items": [
-        "Unbiased Market Scan (We search the WHOLE market, not just our listings)",
-        "Architectural Quality Report on shortlisted properties",
-        "Video-documented inspections if you are remote",
-        "Aggressive price negotiation using technical findings as leverage",
-        "Full closing coordination (Legal & Notary)"
+        "We scan the entire market for you, not just our own listings",
+        "Every shortlisted property gets a thorough architectural quality check",
+        "If you're buying from abroad, we send you video-documented inspections",
+        "We personally walk every property with you",
+        "We coordinate the full closing: legal, Notary, and bank trust setup"
       ]
     },
+    "process": {
+      "title": "Your Journey With Us",
+      "steps": [
+        {
+          "label": "Step 1",
+          "title": "Book a Free Call",
+          "description": "Tell us what you're looking for. We'll walk you through the market, answer every question honestly, and figure out if we're the right fit. Zero cost, zero pressure, zero commitment."
+        },
+        {
+          "label": "Step 2",
+          "title": "We Go to Work",
+          "amount": "2,500 USD",
+          "description": "A one-time Client Representation Fee that puts us fully on your side, not the seller's. Here's what it covers:",
+          "bullets": [
+            "Full market scan, not just our own listings",
+            "Architectural quality assessment on every shortlisted property",
+            "Video-documented inspections you can review from anywhere",
+            "In-person guidance at every property visit",
+            "Fideicomiso (bank trust) coordination, your legal path to ownership in Mexico",
+            "Full closing coordination with the Notary and your legal team"
+          ]
+        },
+        {
+          "label": "Step 3",
+          "title": "Closing Assistance",
+          "description": "Found the one? We guide you through every step of the closing process so you don't have to navigate Mexican bureaucracy alone. Here's what to expect:",
+          "bullets": [
+            "You sign a purchase agreement and place a deposit (typically 10-30%)",
+            "A government-appointed Notary Public verifies the title, checks for liens, and drafts your deed",
+            "For coastal properties, we coordinate the setup of your Fideicomiso, a renewable 50-year bank trust that gives you full ownership rights",
+            "Closing costs typically run 4-7% (acquisition tax, notary fees, trust setup, registry)",
+            "The full process takes one to four months. We coordinate with all parties, track every deadline, and keep you informed along the way"
+          ]
+        },
+        {
+          "label": "Step 4",
+          "title": "You Get the Keys",
+          "description": "Move into a property that's been checked from foundation to rooftop. We're with you through every stage. The legal outcome is handled by the Notary and the authorities, but you'll never face any of it alone."
+        }
+      ],
+      "fideicomisoNote": "What is a Fideicomiso? Mexican law requires foreigners buying near the coast to hold property through a bank trust. A Mexican bank holds the title on your behalf, but you keep all the rights: you can live in it, rent it out, renovate, sell, or pass it on to your heirs. The trust renews every 50 years and costs roughly $500 to $1,000 USD per year. Thousands of international buyers use this exact structure to own property safely across Mexico. We take care of the entire setup for you.",
+      "note": "Our service focuses on properties starting at 250,000 USD."
+    },
     "promise": {
-      "title": "Our Promise",
-      "content": "If we don't find a property that passes our architectural standards, we will advise you NOT to buy. We protect your capital first."
-    },
-    "fee": {
-      "title": "Engagement Fee",
-      "amount": "$2,000 USD",
-      "description": "We charge a deductible engagement fee to start work. This filters out window shoppers and allows us to work heavily on your behalf before you ever make an offer.",
-      "note": "100% Credited towards your purchase at closing."
-    },
-    "minimum": {
-      "title": "Client Criteria",
-      "amount": "$250k+ USD",
-      "description": "We specialize in mid-to-high luxury properties where architectural quality is paramount."
+      "title": "Our Promise to You",
+      "content": "We would rather walk away from a commission than let you make a bad investment. Because we charge a Representation Fee upfront, we don't depend on closing a sale. We depend on earning your trust. And that is your real protection."
     }
   },
   "contact": {
+    "cta": "Contact / Schedule Free Consultation",
+    "badge": "Free Consultation · No Obligation",
+    "heroTitle": "Don't Buy Blindly.",
+    "heroSubhead": "Most buyers skip due diligence and pay for it later. A 30-minute call with us costs nothing — and could protect your entire investment.",
     "title": "Start Your Search",
-    "noCommitment": "Let's just chat. No pressure.",
+    "noCommitment": "Zero pressure. Zero commitment.",
     "booking": {
-      "label": "Book a Video Call",
-      "action": "Meet Marisol & Philipp"
+      "badge": "Recommended",
+      "label": "Book Your Free Consultation",
+      "description": "Tell us what you're looking for. We'll walk you through the current market, share honest insights, and figure out if we're the right fit. No script, no upsell.",
+      "action": "Meet Marisol & Philipp · 30 min",
+      "cta": "Book Free Call"
+    },
+    "whatsapp": {
+      "label": "WhatsApp Us",
+      "description": "Get a direct answer from Marisol or Philipp — no assistant, no bot."
     },
     "email": "Email Us",
     "getInTouch": {
-      "description": "Direct WhatsApp with the Founders"
+      "description": "Direct line to the founders"
+    },
+    "whatToExpect": {
+      "title": "What Happens on the Call",
+      "subtitle": "30 minutes. Honest. Zero pressure.",
+      "items": {
+        "listen": {
+          "title": "We listen first",
+          "description": "Tell us your budget, timeline, and the property you dream of. No script, no sales pitch."
+        },
+        "honest": {
+          "title": "We give you the real picture",
+          "description": "Honest market intel. Which areas are overpriced. Which developers to approach with caution."
+        },
+        "questions": {
+          "title": "Every question answered",
+          "description": "Fideicomiso, acquisition taxes, closing costs — nothing is off the table."
+        },
+        "noObligation": {
+          "title": "Zero obligation",
+          "description": "If we're not the right fit, we'll tell you. We'd rather lose the sale than steer you wrong."
+        }
+      }
     },
     "location": {
       "title": "Office",
@@ -175,14 +244,31 @@
     },
     "hours": {
       "title": "Availability",
-      "weekdays": "Mon-Fri (Available for EU & US Timezones)",
-      "timezone": "We adapt to your schedule."
+      "weekdays": "Mon–Fri · US time zones",
+      "timezone": "Need a different time? Just email us."
     },
     "ready": "Ready to buy safely?",
     "description": "Don't gamble with your investment. Get the architect's advantage."
   },
+  "audit": {
+    "badge": "Technical Due Diligence",
+    "title": "The Property Audit Standard",
+    "subtitle": "Most agents show you the view. We audit the bones. Download our 50-Point Architectural Safety Audit.",
+    "icons": {
+      "structural": "Structural",
+      "electrical": "Electrical",
+      "legal": "Legal"
+    },
+    "cardSubtitle": "50-Point Architectural Safety Audit · PDF",
+    "warningNote": "30% of new developments in the Riviera Maya fail our structural or moisture audits. This document is your first line of defense against sub-standard construction.",
+    "warningLabel": "Note:"
+  },
   "footer": {
     "legal": "The Paradise Architect",
-    "copyright": "© 2026 The Paradise Architect. All rights reserved."
+    "copyright": "© {{year}} The Paradise Architect. All rights reserved.",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions"
+    }
   }
 }
